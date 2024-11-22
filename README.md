@@ -42,7 +42,7 @@
   </ol>
 </details>
 
-1. [JOB SHEET 1](#job-sheet-1)
+1. [JOB SHEET 1](https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra/edit/main/README.md#job-sheet-1-pengantar-algoritma-dan-pemrograman)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
 4. [Usage](#usage)
@@ -51,7 +51,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## JOB SHEET 1- Pengantar Algoritma dan Pemrograman
+## JOB SHEET 1-Pengantar Algoritma dan Pemrograman
 <div>
 <h3 align="left">Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE</h3>
   <p>
