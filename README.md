@@ -18,10 +18,10 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Daftar Isi</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#JOOB-SHEET-1">JOOB SHEET 1</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -42,6 +42,14 @@
   </ol>
 </details>
 
+1. [JOB SHEET 1](#job-sheet-1)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Code Explanation](#code-explanation)
+6. [Conclusion](#conclusion)
+
+
 <!-- ABOUT THE PROJECT -->
 ## JOB SHEET 1- Pengantar Algoritma dan Pemrograman
 <div>
@@ -56,11 +64,52 @@ beranggapan algoritma selalu identik dengan ilmu komputer saja. Dalam
 kehidupan sehari-hari pun banyak terdapat proses yang dinyatakan dalam
 suatu algoritma. Berikut adalah beberapa contoh algoritma dalam kehidupan
 sehari-hari :
-
-    
+<img src="1.1.png" alt="ss" width="400" height="400"><br>
+<p><b>Pemrograman</b> bisa diartikan sebuah tindakan atau aktivitas penulisan,
+menguji, memperbaiki, dan memelihara kode yang dipahami oleh komputer.
+Pemrograman adalah proses penulisan kode menjadi sebuah program.Sementara orang yang melakukan pemrograman disebut dengan <b>programmer</b>,
+sedangkan <b>program</b> adalah produk dari proses pemrograman yang dilakukan.</p>
+<br><b>IDE atau Integrated Development Environment</b> adalah software atau
+perangkat lunak yang digunakan oleh programmer untuk membuat sebuah
+program komputer atau sebagai tempat pengembangan aplikasi. Berbeda
+dengan text editor seperti notepad, IDE merupakan text editor yang memiliki
+compiler dan debugger sekaligus sehingga memungkinkan sebuah program
+dapat ditulis, diuji, dan dijalankan dalam satu aplikasi. IDE memiliki banyak
+fitur yang mendukung proses pemrograman. Contohnya adalah DevC++,
+Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.    
   </p>
 </div>
+<div>
+  <h3 align="left">Latihan 2 : Melakukan instalasi IDE</h3>
+  Anda bisa memilih diantara IDE berikut :<br>
+➢ DevC++<br>
+➢ Visual Studio Code<br>
+➢ CodeBlocks<br>
+  Tetapi pada program ini saya menggunakan Visual Studio Code,Berikut cara instalasinya :<br>
+  1.Unduh Visual Studio Code dari <a href="https://code.visualstudio.com/download"> tautan resmi.</a><br>
+  2.Instal sesuai instruksi pada layar.<br>
+  3.Pastikan compiler seperti MinGW terpasang.<br>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program "Hello World"</h3>
+  
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program sederhana dalam bahasa C yang mencetak pesan ke konsol menggunakan fungsi printf.<br>
+    <img src="1.1.png" alt="ss" width="200" height="200"><br>
+   <b>Penjelasan Tiap Baris</b><br>
+1.#include < stdio.h > <br>
+Memasukkan pustaka standar untuk operasi input dan output, seperti printf.<br>
+2.int main()<br>
+Fungsi utama tempat program dimulai.<br>
+3.printf("Hello World!\n");<br>
+Perintah untuk mencetak teks "Hello World!" ke layar. Tanda \n membuat program pindah ke baris baru setelah mencetak.<br>
+4.return 0;<br>
+Mengakhiri program dengan status sukses (kode 0).<br>
 
+ 
+  </p>
+</div>
 
 <img src="1.1.png" alt="ss" width="400" height="400">
 
