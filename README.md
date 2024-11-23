@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <a id="readme-top"></a>
-<br />
+
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
     <img src="1.1.png" alt="Logo" width="80" height="80">
@@ -22,9 +22,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#job-sheet-1">JOB SHEET 1 - Pengantar Algoritma dan Pemrograman</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#latihan-1-pengertian">Latihan 1: Pengertian</a></li>
+        <li><a href="#latihan-2-instalasi-ide">Latihan 2: Instalasi IDE</a></li>
+        <li><a href="#latihan-3-program-hello-world">Latihan 3: Program Hello World</a></li>
       </ul>
     </li>
     <li>
@@ -43,16 +45,10 @@
   </ol>
 </details>
 
-1. [JOB SHEET 1](https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra/edit/main/README.md#job-sheet-1-pengantar-algoritma-dan-pemrograman)
-2. [Requirements](#requirements)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Code Explanation](#code-explanation)
-6. [Conclusion](#conclusion)
 
 
 <!-- ABOUT THE PROJECT -->
-## JOB SHEET 1-Pengantar Algoritma dan Pemrograman
+## JOB SHEET 1 - Pengantar Algoritma dan Pemrograman
 <div>
 <h3 align="left">Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE</h3>
   <p>
@@ -111,6 +107,8 @@ Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.
  
   </p>
 </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## JOB SHEET 2-Pemograman Dasar C
 <div>
@@ -240,7 +238,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    
   </p>
 </div>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## JOB SHEET 3-Variabel,Konstanta, dan Tipe Data
 <div>
@@ -354,6 +352,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program menampilkan pesan penutup.
   </p>
 </div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## JOB SHEET 4-Operator
 <div>
@@ -503,7 +502,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## JOB SHEET 5-Flow Control (Decision Making)
 <div>
@@ -711,7 +710,7 @@ Program ini adalah aplikasi berbasis teks untuk menghitung nilai akhir mahasiswa
   </tbody>
 </table>
 
-  6. Output : Program akan menampilkan Nama mahasiswa,NIM,Program Studi, Fakultas,Nilai Akhir, Grade, dan Keterangan Kelulusan.<br>
+  5. Output : Program akan menampilkan Nama mahasiswa,NIM,Program Studi, Fakultas,Nilai Akhir, Grade, dan Keterangan Kelulusan.<br>
 
 <br><b>Struktur Program</b><br>
 Program ini terdiri dari bagian utama sebagai berikut:<br>
@@ -725,7 +724,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - keterangan: Variabel ini menggunakan pointer untuk menyimpan alamat memori dari string keterangan dan menunjuk ke string keterangan berdasarkan 
      perhitungan nilai akhir yang didapat.
    
-4. Alur Program
+3. Alur Program
    - Mengambil input data mahasiswa: Nama mahasiswa,NIM,Program Studi, Fakultas.
    - Mengambil input nilai akademik: Nilai Kehadiran (0-100),Nilai Tugas (0-100),Nilai UTS (0-100),Nilai UAS (0-100)
    - Setelah program menyimpan input di variabel masing masing, Program menghitung nilai akhir menggunakan rumus.
@@ -735,6 +734,419 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
+
+## JOB SHEET 6-Flow Control (Looping)
+<div>
+<h3 align="left">Latihan 1 : Program Deret Bilangan Genap dan Ganjil</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini dirancang untuk mencetak deret bilangan genap dan ganjil dalam rentang 0 hingga 50. Program menggunakan struktur perulangan untuk menghasilkan deret tersebut dan menampilkan hasilnya ke layar. 
+
+<b>Fitur</b><br>
+   - Mencetak Deret Bilangan Genap: Menampilkan bilangan genap dalam rentang 0 hingga 50.<br>
+   - Mencetak Deret Bilangan Ganjil: Menampilkan bilangan ganjil dalam rentang 0 hingga 50.<br>
+   - Penggunaan Perulangan : KProgram menggunakan perulangan for untuk menghasilkan deret bilangan.<br>  
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Fungsi Utama (main):<br>
+   - Fungsi utama terdiri dari deklarasi variabel, perulangan, dan pencetakan output.<br>
+   - Dua perulangan for digunakan untuk menghasilkan bilangan genap dan ganjil.<br>
+3. Logika Perulangan:<br>
+   - Perulangan pertama (for) menambah bilangan dengan langkah 2 dimulai dari 0 untuk mencetak bilangan genap.<br>
+   - Perulangan kedua (for) juga menambah dengan langkah 2 tetapi dimulai dari 1 untuk mencetak bilangan ganjil. <br>
+4. Alur Program
+   - Program memulai dengan mencetak judul bagian pertama, yaitu "Deret Bilangan Genap dari 0-50".<br>
+   - Program akan melakukan perulangan for, dimulai dari 0 hingga 50, dengan langkah penambahan 2.Setiap iterasi dicetak ke layar.<br>
+   - Setelah deret bilangan genap selesai, program mencetak judul bagian berikutnya, yaitu "Deret Bilangan Ganjil dari 0-50".<br>
+   - Perulangan for kedua digunakan, dimulai dari 1 hingga kurang dari 50, dengan langkah penambahan 2.Setiap iterasi dicetak ke layar.<br>
+   - Program mencetak baris baru setelah semua deret selesai dan keluar dengan return 0.<br>
+  </p>
+</div>
+
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Segitiga Bintang</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini mencetak pola segitiga bintang ke konsol menggunakan perulangan bersarang (nested loop). Program bertujuan untuk menghasilkan pola berbentuk segitiga.
+
+<b>Fitur</b><br>
+1. Pola Segitiga Bintang:<br>
+   - Baris pertama mencetak satu bintang.<br>
+   - Baris kedua mencetak dua bintang, dan seterusnya hingga baris kelima.<br>
+2. Perulangan Bersarang : Menggunakan dua perulangan for untuk mencetak pola secara berjenjang.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - i dan j adalah variabel integer yang digunakan sebagai pengontrol untuk perulangan.<br>
+3. Perulangan Bersarang:<br>
+Program menggunakan rumus berikut untuk melakukan konversi:<br>
+- Perulangan luar (for (i = 1; i <= 5; i++)) mengatur jumlah baris.<br>
+- Perulangan dalam (for (j = 1; j <= i; j++)) mengatur jumlah bintang yang dicetak di setiap baris.<br>
+     
+4. Alur Program<br>
+   - Variabel i dan j dideklarasikan sebagai integer untuk mengontrol perulangan.<br>
+   - Perulangan pertama dimulai dengan variabel i bernilai 1 dan berfungsi untuk mengontrol jumlah baris yang akan dicetak. Batasnya adalah i <= 5, 
+     sehingga program akan mencetak total 5 baris.<br>
+   - Untuk setiap nilai i, perulangan kedua dimulai dengan variabel j bernilai 1,perulangan ini mencetak bintang ( * ) sebanyak nilai dari variabel 
+      i.Ketika 
+      j <= i, perintah printf( " * " ) dijalankan untuk mencetak bintang.
+   - Setelah perulangan dalam selesai mencetak semua bintang untuk satu baris, program mengeksekusi perintah printf("\n") untuk berpindah ke baris baru.Dan akan terjadi iterasi hingga i > 5.
+   - Setelah semua baris selesai dicetak, program keluar dari kedua perulangan dan mencapai perintah return 0, menandakan program selesai dijalankan.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Pola Angka Bentuk Segitiga</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini adalah implementasi sederhana dalam bahasa C untuk mencetak pola angka berdasarkan perkalian indeks baris dan kolom dalam bentuk segitiga. Pola yang dicetak menggunakan dua perulangan bersarang untuk menghasilkan hasil yang terstruktur.<br>
+  </p>
+  <b>Fitur</b><br>
+ 1. Pencetakan Pola Segitiga: Pola angka berbentuk segitiga dihasilkan berdasarkan hasil perkalian indeks baris (i) dan kolom (j).<br>
+ 2. Ukuran Pola: Pola ini dapat diatur dengan mengubah nilai variabel n, yang menunjukkan jumlah baris yang akan dicetak.  <br>
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Variabel i dan j digunakan untuk iterasi perulangan. Variabel n digunakan untuk menentukan jumlah baris pola.<br>
+3. Perulangan Bersarang:
+   - Perulangan luar (i) menentukan baris saat ini
+   - Perulangan dalam (j) menentukan kolom dalam setiap baris.
+4. Cetak Pola: Dalam perulangan dalam, program menghitung dan mencetak hasil perkalian i * j untuk setiap kolom di baris tertentu.<br>
+   
+5. Alur Program
+   - Variabel i, j, dan n dideklarasikan. Nilai n diinisialisasi dengan 5.
+   - Program menjalankan perulangan :
+      - Perulangan Luar: dijalankan dari 1 hingga nilai n (jumlah baris).
+      - Perulangan Dalam: Untuk setiap nilai i, perulangan kedua mencetak hasil perkalian i * j.
+   - Setelah setiap baris selesai dicetak, perintah printf("\n") dijalankan untuk memulai baris baru.
+   - Setelah mencetak semua baris, program berhenti dan mengembalikan 0.
+  
+  </p>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<div>
+  <h3 align="left">Latihan 4 : Program ATM</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini adalah simulasi sederhana mesin ATM yang memungkinkan pengguna untuk melakukan beberapa jenis transaksi, termasuk:<br>
+    1. Cek Saldo: Melihat saldo saat ini.<br>
+    2. Setoran: Menambahkan uang ke saldo.<br>
+    3. Penarikan Tunai: Mengurangi saldo dengan jumlah yang ditentukan, dengan saldo minimum yang harus disisakan sebesar Rp. 50.000.<br>
+    4. Keluar: Mengakhiri sesi transaksi.<br>
+    Program ini ditulis dalam bahasa C dan menggunakan perulangan<br>
+  </p>
+  <b>Fitur</b><br>
+ 1. Input Pengguna: Pengguna memasukkan nomor rekening dan nama akun sebelum memulai transaksi.<br>
+ 2. Menu ATM: Menu pilihan memungkinkan pengguna memilih transaksi yang diinginkan.
+ 3. Validasi Saldo: Saldo awal = Rp. 175.000. Saat melakukan penarikan, program memastikan saldo yang tersisa tidak kurang dari Rp. 50.000.<br>
+ 4. Perulangan Transaksi:Pengguna dapat melakukan berbagai transaksi tanpa harus keluar dari program hingga memilih opsi keluar.<br>
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - pilihan: Menyimpan input pilihan menu.
+   - saldo: Menyimpan saldo akun (nilai awal: Rp. 175.000).
+   - setoran: Menyimpan jumlah uang yang akan disetor.
+   - Penarikan: Menyimpan jumlah uang yang akan ditarik.
+   - nama: Menyimpan nama pemilik rekening.
+   - noRek: Menyimpan nomor rekening pengguna.<br>
+3. Menu Transaksi:
+   - Cek Saldo: Menampilkan saldo saat ini( dengan saldo awal = Rp.175.000 ).
+   - Setoran: Menambahkan jumlah setoran ke saldo.
+   - Penarikan Tunai: Memastikan saldo tidak kurang dari Rp. 50.000 setelah penarikan.
+   - Keluar: Mengakhiri sesi. 
+4. Alur Program
+   - Pengguna memasukkan nomor rekening dan nama akun dan saldo awal ditampilkan.
+   - Menu ditampilkan, dan pengguna diminta memilih opsi.
+   - Perulangan berjalan hingga pengguna memilih Keluar dan mengakhiri program.<br>
+5. Skenario :<br>
+   - Hattori menyetorkan uang sebesar Rp. 25.000, kemudian setoran
+kedua sebesar Rp. 45.000. Berapakah saldo Hattori saat ini?<br>
+Jawaban : maka, saldo awal + setoran pertama + setoran kedua = 175.0000 + 25.000 + 45.000 = 245.000<br>
+Output Program :<br>
+<img src="1.1.png" alt="ss" width="200" height="200"><br>
+   - Hattori melakukan penarikan pertama sebesar Rp. 50.000, kemudian
+penarikan kedua sebesar Rp. 45.000. Berapakah sisa saldo Hattori
+setelah itu?<br>
+ Jawaban : saldo saat ini - penarikan pertama - penarikan kedua = 245.000 - 50.000 - 45.000 = 150.000<br>
+Output Program :<br>
+<img src="1.1.png" alt="ss" width="200" height="200"><br>
+   - Hattori melakukan penarikan ketiga sebesar Rp. 120.000. Berapakah
+sisa saldo Hattori?<br>
+Jawaban : saldo saat ini - penarikan ketiga = 150.000 - 120.000 = Penarrikan Gagal,karena ATM memberikan kebijakan saldo minimal adalah 50.000,sedangkan 
+ jika dilakukan penarikan ketiga maka saldo akan menjadi 30.000 yang tentunya kurang dari saldo minimal.<br>
+Output Program :<br>
+<img src="1.1.png" alt="ss" width="200" height="200"><br>
+  </p>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## JOB SHEET 7-Array
+<div>
+<h3 align="left">Latihan 1 : Program Menghitung Rata Rata Nilai Mahasiswa </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini digunakan untuk menghitung rata-rata nilai mahasiswa berdasarkan nilai yang tersimpan dalam array. Program memanfaatkan loop untuk menghitung jumlah seluruh nilai, lalu membaginya dengan jumlah data (panjang array) untuk mendapatkan rata-rata.
+
+<b>Fitur</b><br>
+   - Mengolah Data Nilai: Nilai mahasiswa disimpan dalam array nilai berisi 20 elemen(75, 65, 66, 57, 84, 56, 63, 76, 71, 69, 70, 88, 90, 87, 93, 79, 86, 95, 100, 99).<br>
+   - Perhitungan Rata-Rata: Menggunakan perulangan untuk menjumlahkan seluruh nilai dan menggunakan sizeof(nilai) / sizeof(*nilai) untuk menentukan jumlah elemen array.<br>
+   - Output : Menampilkan rata-rata nilai mahasiswa di konsol.<br>  
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - j: Menyimpan hasil perhitungan jam.<br>
+   - m: Menyimpan hasil perhitungan menit.<br>
+   - d: Awalnya digunakan untuk input jumlah detik, kemudian menyimpan detik yang tersisa setelah dikonversi.<br>
+3. Proses Konversi<br>
+   Menggunakan rumus sederhana untuk konversi:<br>
+   - Jam = detik / 3600<br>
+   - Menit = detik %(sisa bagi) 3600 / 60<br>
+   - Detik = detik %(sisa bagi) 60 <br>
+5. Alur Program
+   - Array nilai menyimpan nilai mahasiswa sebanyak 20 elemen.<br>
+   - Menggunakan sizeof(nilai) / sizeof(*nilai) untuk menentukan jumlah elemen array.<br>
+   - Menggunakan perulangan for untuk menambahkan nilai setiap elemen array ke variabel sum.<br>
+   - Membagi total nilai (sum) dengan panjang array (length).
+   - Menampilkan rata-rata dalam format desimal (2 digit).<br>
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Input dan Tampilkan Nama Mahasiswa</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini dibuat untuk menerima input nama sejumlah mahasiswa dari pengguna, kemudian menampilkan daftar nama mahasiswa yang telah dimasukkan. Program memanfaatkan array 2D untuk menyimpan nama mahasiswa serta loop untuk mengelola input dan output data.<br>
+    
+<br><b>Fitur</b><br>
+1. Input Pengguna:Pengguna dapat menentukan jumlah mahasiswa yang akan diinput dan menginputkan nama nama mahasiswa.<br>
+2. Menyimpan Nama Mahasiswa: Nama-nama mahasiswa disimpan dalam array 2D namaMahasiswa.<br>
+3. Output: Setelah semua nama diinput, program mencetak daftar nama mahasiswa yang telah disimpan.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - jumlahMahasiswa: Jumlah mahasiswa yang ingin diinput.<br>
+   - namaMahasiswa [ jumlahMahasiswa ] [ 50 ]: Array untuk menyimpan nama mahasiswa, dengan panjang maksimal 50 karakter per nama.<br>
+     
+3. Alur Program
+   - Program meminta pengguna untuk menentukan jumlah mahasiswa yang akan diinput dan menginputkan nama nama mahasiswa.<br>
+   - Program menggunakan perulangan untuk meminta pengguna memasukkan nama mahasiswa satu per satu.
+   - Setelah semua nama diinput, program menampilkan daftar nama mahasiswa.<br>
+  
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Halaman Login Sederhana </h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini merupakan implementasi sederhana dari sistem validasi login. Program meminta pengguna untuk memasukkan username dan password, lalu memverifikasi kecocokan dengan data yang telah disimpan. Jika valid, program akan mencetak pesan "Berhasil login"; jika tidak, program akan memberikan pesan "Password salah".<br>
+  </p>
+  <b>Fitur</b><br>
+   1. Validasi Login: Mencocokkan input username dan password dengan data yang telah ditentukan.<br>
+   2. Pesan Feedback: Memberikan pesan keberhasilan login jika input benar dan memberikan pesan kesalahan jika input salah.<br>
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - validUsername[]: Username yang valid yaitu ddealexa.
+   - validPassword[]: Password yang valid yaitu 12345678.
+   - inputUsername[]: Menyimpan input username dari pengguna.
+   - inputPassword[]: Menyimpan input password dari pengguna.
+      
+4. Alur Program
+   - Program meminta pengguna memasukkan username dan password.
+   - Program membandingkan input dengan username dan password yang disimpan menggunakan strcmp() untuk memeriksa apakah string yang dimasukkan sama persis.
+   - Menampilkan Hasil: Jika username dan password benar: Menampilkan pesan "Berhasil login" dan Jika salah: Menampilkan pesan "Password salah".
+   - Akhir Program:Program akan menutup program.
+  </p>
+  
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## JOB SHEET 8- Fungsi dan Prosedur
+<div>
+<h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah sebuah aplikasi sederhana dalam bahasa pemrograman C yang digunakan untuk mengkonversi waktu dari format detik ke format yang lebih terstruktur, yaitu jam, menit, dan detik. Pengguna hanya perlu memasukkan jumlah total detik, dan program akan menghitung serta menampilkan hasil konversi dalam format yang mudah dipahami. 
+
+<b>Fitur</b><br>
+   - Input waktu dalam detik: Pengguna dapat memasukkan waktu dalam detik yang ingin dikonversi(3700 detik).<br>
+   - Konversi waktu: Program akan mengkonversikan waktu dari total detik ke bentuk jam,menit dan detik.<br>
+   - Output : Hasil akan ditampilkan di layar dalam format "X Jam, Y Menit, Z Detik".<br>  
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - j: Menyimpan hasil perhitungan jam.<br>
+   - m: Menyimpan hasil perhitungan menit.<br>
+   - d: Awalnya digunakan untuk input jumlah detik, kemudian menyimpan detik yang tersisa setelah dikonversi.<br>
+3. Proses Konversi<br>
+   Menggunakan rumus sederhana untuk konversi:<br>
+   - Jam = detik / 3600<br>
+   - Menit = detik %(sisa bagi) 3600 / 60<br>
+   - Detik = detik %(sisa bagi) 60 <br>
+5. Alur Program
+   - Program menampilkan pesan untuk meminta pengguna memasukkan waktu dalam detik.<br>
+   - Waktu dalam bentuk detik yang dimasukkan pengguna disimpan dalam variabel d menggunakan scanf.<br>
+   - Program mengonversikan waktu dalam detik ke bentuk jam,menit,detik dengan menghitung jumlah jam dengan membagi total detik dengan 3600 lalu
+menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilkan detik yang tersisa setelah dikonversi ke jam dan menit.<br>
+   - Program akan menampilkan hasil dari konversi waktu dalam detik ke bentuk jam,menit,detik<br>
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Kasir Sederhana</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah aplikasi kasir sederhana yang digunakan untuk menghitung total biaya pembelian barang berdasarkan harga satuan dan jumlah barang yang dibeli. Program akan meminta pengguna untuk memasukkan nama mereka, nama barang, harga satuan barang, dan jumlah barang yang dibeli. Hasilnya, program akan menampilkan rincian pembelian dan harga total pembelian barang.<br>
+<br><b>Fitur</b><br>
+1. Input Data Pembeli:Pengguna memasukkan nama,nama barang,harga barang satuan dan jumlah barang dibeli.<br>
+2. Proses Perhitungan: Program menghitung total biaya pembelian dengan mengalikan harga barang satuan dan jumlah barang.<br>
+3. Output: Menampilkan informasi lengkap berupa nama pembeli, nama barang, harga satuan, jumlah barang, dan total biaya.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - nama: Menyimpan nama pembeli.(tipe data character)<br>
+   - barang: Menyimpan nama barang yang dibeli.(tipe data character)<br>
+   - harga: Menyimpan harga satuan barang (dalam bentuk tipe data float untuk angka desimal).<br>
+   - jumlah: Menyimpan jumlah barang yang dibeli.(tipe data integer)
+   - total: Menyimpan hasil perhitungan total harga pembelian.(dalam bentuk tipe data float untuk angka desimal)<br>
+3. Rumus perhitungan total pembelian<br>
+Program menggunakan rumus berikut : total = harga * jumlah<br>
+     
+4. Alur Program
+   - Program meminta pengguna untuk memasukkan informasi yang diminta:nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli.<br>
+   - Setelah pengguna memasukkan nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli, program melakukan perhitungan untuk menghitung total pembelian menggunakan rumus<br>
+   - Program mencetak nama pengguna,nama barang, harga barang satuan,jumlah barang yang dibeli dan total pembelian.<br>
+   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini merupakan aplikasi sederhana untuk menghitung nilai akhir seorang mahasiswa berdasarkan bobot dari komponen-komponen nilai yang terdiri dari presensi, praktek, UTS (Ujian Tengah Semester), dan UAS (Ujian Akhir Semester). <br>
+  </p>
+  <b>Fitur</b><br>
+   1. Input Informasi Mahasiswa:Nama mahasiswa,Nilai presensi, praktek, UTS, dan UAS.<br>
+   2. Perhitungan Nilai Akhir: Menggunakan bobot tertentu untuk setiap komponen nilai: Presensi: 10%,Praktek: 20%,UTS: 30%,UAS: 40%.Setiap komponen nilai 
+       tersebut akan dimasukkan kedalam rumus berikut :nilaiAkhir = (0.1 * presensi) + (0.2 * praktek) + (0.3 * uts) + (0.4 * uas)  <br>
+   3. Output : Program akan menampilkan nama mahasiswa dan nilai akhir mahasiswa berdasarkan perhitungan yang didapat.<br>
+
+
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Tipe data character :
+      - nama: Menyimpan nama mahasiswa.
+   - Tipe data float :
+      - presensi: Menyimpan nilai presensi.
+      - praktek: Menyimpan nilai praktek.
+      - uts: Menyimpan nilai UTS.
+      - uas: Menyimpan nilai UAS.
+      - nilaiAkhir: Menyimpan hasil perhitungan nilai akhir mahasiswa.
+   
+4. Alur Program
+   - Mengambil input nama mahasiswa dan nilai presensi,praktek,UTS dan UAS.
+   - Menghitung nilai akhir menggunakan rumus berdasarkan bobot yang telah ditentukan.
+   - Menampilkan nama mahasiswa nilai akhir yang sudah dihitung.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Rental Film</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
+     1. Tarif untuk jam pertama adalah Rp 15,000.<br>
+     2. Tarif untuk jam berikutnya adalah 50% dari tarif jam pertama (Rp 7,500). <br>
+Program ini meminta pengguna memasukkan nama dan durasi menonton, lalu menghitung total biaya sewa berdasarkan aturan tersebut. <br>
+  </p>
+  
+  <b>Fitur</b><br>
+  1. Input Pengguna:Nama pengguna dan durasi waktu menonton film dalam jam.<br>
+  2. Perhitungan Biaya:<br>
+     - Tarif untuk jam pertama: Rp 15,000.<br>
+     - Tarif untuk setiap jam berikutnya: Rp 7,500.<br>
+     - Total biaya dihitung otomatis berdasarkan durasi dengan menggunakan if-else dengan kondisi : <br>
+       - Jika hanya 1 jam, biaya adalah Rp 15,000<br>
+       - Jika lebih dari 1 jam, biaya dihitung menggunakan: totalBiaya = tarifPertama + (durasiMenonton - 1) * tarifBerikutnya<br>
+  3. Output : Program akan menampilkan nama,durasi menonton, dan total biaya berdasarkan perhitungan yang didapat.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Tipe data character :
+      - nama: Menyimpan nama pengguna.
+   - Tipe data integer :
+      - tarifPertama: Tarif sewa untuk jam pertama.
+      - tarifBerikutnya: Tarif sewa untuk setiap jam berikutnya.
+      - durasiMenonton: Menyimpan durasi menonton yang dimasukkan oleh pengguna.
+      - uas: Menyimpan nilai UAS.
+      - totalBiaya: Menyimpan hasil perhitungan total biaya sewa.
+   
+4. Alur Program
+   - Mengambil input nama pengguna dan durasi menonton.
+   - Menghitung total biaya berdasarkan aturan tarif.
+   - Menampilkan nama pengguna,durasi menonton dan total biaya.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <img src="1.1.png" alt="ss" width="400" height="400">
 
