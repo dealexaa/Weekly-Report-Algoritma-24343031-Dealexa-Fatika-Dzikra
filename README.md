@@ -319,12 +319,13 @@ Program menggunakan rumus berikut untuk melakukan konversi:<br>
     Program ini adalah aplikasi yang digunakan untuk menghitung volume dan luas permukaan dari bola basket berdasarkan diameter yang diberikan oleh pengguna yaitu 12cm.Program ini memungkinkan pengguna untuk memilih operasi yang diinginkan dan mengulang proses perhitungan jika diperlukan.<br>
   </p>
   <b>Fitur</b><br>
-  - Dua Pilihan Operasi:
-      - Menghitung Volume bola menggunakan rumus: V = 4/3 x π x r³  <br>
-      - Menghitung Luas Permukaan bola menggunakan rumus:4 x π x r²<br>
-  - Input Diameter: Program meminta pengguna untuk memasukkan diameter bola (dalam satuan cm).  <br>
-  - Perulangan do-while: Setelah setiap perhitungan, program menanyakan apakah pengguna ingin melakukan operasi lainnya.  <br>
-  - Output : Hasil perhitungan disajikan dalam format desimal dengan dua angka di belakang koma.<br>
+ 1. Dua Pilihan Operasi :<br>
+    - Menghitung Volume bola menggunakan rumus: V = 4/3 x π x r³ <br>
+    - Menghitung Luas Permukaan bola menggunakan rumus:4 x π x r²<br>
+  
+  2. Input Diameter: Program meminta pengguna untuk memasukkan diameter bola (dalam satuan cm).  <br>
+  3. Perulangan do-while: Setelah setiap perhitungan, program menanyakan apakah pengguna ingin melakukan operasi lainnya.  <br>
+  4. Output : Hasil perhitungan disajikan dalam format desimal dengan dua angka di belakang koma.<br>
 
 
   
@@ -354,6 +355,386 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   </p>
 </div>
 
+## JOB SHEET 4-Operator
+<div>
+<h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah sebuah aplikasi sederhana dalam bahasa pemrograman C yang digunakan untuk mengkonversi waktu dari format detik ke format yang lebih terstruktur, yaitu jam, menit, dan detik. Pengguna hanya perlu memasukkan jumlah total detik, dan program akan menghitung serta menampilkan hasil konversi dalam format yang mudah dipahami. 
+
+<b>Fitur</b><br>
+   - Input waktu dalam detik: Pengguna dapat memasukkan waktu dalam detik yang ingin dikonversi(3700 detik).<br>
+   - Konversi waktu: Program akan mengkonversikan waktu dari total detik ke bentuk jam,menit dan detik.<br>
+   - Output : Hasil akan ditampilkan di layar dalam format "X Jam, Y Menit, Z Detik".<br>  
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - j: Menyimpan hasil perhitungan jam.<br>
+   - m: Menyimpan hasil perhitungan menit.<br>
+   - d: Awalnya digunakan untuk input jumlah detik, kemudian menyimpan detik yang tersisa setelah dikonversi.<br>
+3. Proses Konversi<br>
+   Menggunakan rumus sederhana untuk konversi:<br>
+   - Jam = detik / 3600<br>
+   - Menit = detik %(sisa bagi) 3600 / 60<br>
+   - Detik = detik %(sisa bagi) 60 <br>
+5. Alur Program
+   - Program menampilkan pesan untuk meminta pengguna memasukkan waktu dalam detik.<br>
+   - Waktu dalam bentuk detik yang dimasukkan pengguna disimpan dalam variabel d menggunakan scanf.<br>
+   - Program mengonversikan waktu dalam detik ke bentuk jam,menit,detik dengan menghitung jumlah jam dengan membagi total detik dengan 3600 lalu
+menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilkan detik yang tersisa setelah dikonversi ke jam dan menit.<br>
+   - Program akan menampilkan hasil dari konversi waktu dalam detik ke bentuk jam,menit,detik<br>
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Kasir Sederhana</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah aplikasi kasir sederhana yang digunakan untuk menghitung total biaya pembelian barang berdasarkan harga satuan dan jumlah barang yang dibeli. Program akan meminta pengguna untuk memasukkan nama mereka, nama barang, harga satuan barang, dan jumlah barang yang dibeli. Hasilnya, program akan menampilkan rincian pembelian dan harga total pembelian barang.<br>
+<br><b>Fitur</b><br>
+1. Input Data Pembeli:Pengguna memasukkan nama,nama barang,harga barang satuan dan jumlah barang dibeli.<br>
+2. Proses Perhitungan: Program menghitung total biaya pembelian dengan mengalikan harga barang satuan dan jumlah barang.<br>
+3. Output: Menampilkan informasi lengkap berupa nama pembeli, nama barang, harga satuan, jumlah barang, dan total biaya.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - nama: Menyimpan nama pembeli.(tipe data character)<br>
+   - barang: Menyimpan nama barang yang dibeli.(tipe data character)<br>
+   - harga: Menyimpan harga satuan barang (dalam bentuk tipe data float untuk angka desimal).<br>
+   - jumlah: Menyimpan jumlah barang yang dibeli.(tipe data integer)
+   - total: Menyimpan hasil perhitungan total harga pembelian.(dalam bentuk tipe data float untuk angka desimal)<br>
+3. Rumus perhitungan total pembelian<br>
+Program menggunakan rumus berikut : total = harga * jumlah<br>
+     
+4. Alur Program
+   - Program meminta pengguna untuk memasukkan informasi yang diminta:nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli.<br>
+   - Setelah pengguna memasukkan nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli, program melakukan perhitungan untuk menghitung total pembelian menggunakan rumus<br>
+   - Program mencetak nama pengguna,nama barang, harga barang satuan,jumlah barang yang dibeli dan total pembelian.<br>
+   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini merupakan aplikasi sederhana untuk menghitung nilai akhir seorang mahasiswa berdasarkan bobot dari komponen-komponen nilai yang terdiri dari presensi, praktek, UTS (Ujian Tengah Semester), dan UAS (Ujian Akhir Semester). <br>
+  </p>
+  <b>Fitur</b><br>
+   1. Input Informasi Mahasiswa:Nama mahasiswa,Nilai presensi, praktek, UTS, dan UAS.<br>
+   2. Perhitungan Nilai Akhir: Menggunakan bobot tertentu untuk setiap komponen nilai: Presensi: 10%,Praktek: 20%,UTS: 30%,UAS: 40%.Setiap komponen nilai 
+       tersebut akan dimasukkan kedalam rumus berikut :nilaiAkhir = (0.1 * presensi) + (0.2 * praktek) + (0.3 * uts) + (0.4 * uas)  <br>
+   3. Output : Program akan menampilkan nama mahasiswa dan nilai akhir mahasiswa berdasarkan perhitungan yang didapat.<br>
+
+
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Tipe data character :
+      - nama: Menyimpan nama mahasiswa.
+   - Tipe data float :
+      - presensi: Menyimpan nilai presensi.
+      - praktek: Menyimpan nilai praktek.
+      - uts: Menyimpan nilai UTS.
+      - uas: Menyimpan nilai UAS.
+      - nilaiAkhir: Menyimpan hasil perhitungan nilai akhir mahasiswa.
+   
+4. Alur Program
+   - Mengambil input nama mahasiswa dan nilai presensi,praktek,UTS dan UAS.
+   - Menghitung nilai akhir menggunakan rumus berdasarkan bobot yang telah ditentukan.
+   - Menampilkan nama mahasiswa nilai akhir yang sudah dihitung.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Rental Film</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
+     1. Tarif untuk jam pertama adalah Rp 15,000.<br>
+     2. Tarif untuk jam berikutnya adalah 50% dari tarif jam pertama (Rp 7,500). <br>
+Program ini meminta pengguna memasukkan nama dan durasi menonton, lalu menghitung total biaya sewa berdasarkan aturan tersebut. <br>
+  </p>
+  
+  <b>Fitur</b><br>
+  1. Input Pengguna:Nama pengguna dan durasi waktu menonton film dalam jam.<br>
+  2. Perhitungan Biaya:<br>
+     - Tarif untuk jam pertama: Rp 15,000.<br>
+     - Tarif untuk setiap jam berikutnya: Rp 7,500.<br>
+     - Total biaya dihitung otomatis berdasarkan durasi dengan menggunakan if-else dengan kondisi : <br>
+       - Jika hanya 1 jam, biaya adalah Rp 15,000<br>
+       - Jika lebih dari 1 jam, biaya dihitung menggunakan: totalBiaya = tarifPertama + (durasiMenonton - 1) * tarifBerikutnya<br>
+  3. Output : Program akan menampilkan nama,durasi menonton, dan total biaya berdasarkan perhitungan yang didapat.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Tipe data character :
+      - nama: Menyimpan nama pengguna.
+   - Tipe data integer :
+      - tarifPertama: Tarif sewa untuk jam pertama.
+      - tarifBerikutnya: Tarif sewa untuk setiap jam berikutnya.
+      - durasiMenonton: Menyimpan durasi menonton yang dimasukkan oleh pengguna.
+      - uas: Menyimpan nilai UAS.
+      - totalBiaya: Menyimpan hasil perhitungan total biaya sewa.
+   
+4. Alur Program
+   - Mengambil input nama pengguna dan durasi menonton.
+   - Menghitung total biaya berdasarkan aturan tarif.
+   - Menampilkan nama pengguna,durasi menonton dan total biaya.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+
+
+## JOB SHEET 5-Flow Control (Decision Making)
+<div>
+<h3 align="left">Latihan 1 : Program Kalkulator Sederhana </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah kalkulator sederhana berbasis teks yang mendukung beberapa operasi matematika dasar:<br>
+1. Penjumlahan<br>
+2. Pengurangan<br>
+3. Perkalian<br>
+4. Pembagian<br>
+5. Hasil bagi (sisa pembagian atau modulus)<br>.
+Pengguna dapat melakukan beberapa operasi secara berulang sampai memilih untuk menghentikan program.<br>
+
+<b>Fitur</b><br>
+  
+Fitur
+1. Operasi Matematika Dasar:
+  - Penjumlahan, pengurangan, perkalian, pembagian, dan modulus (sisa bagi).
+  - Hasil ditampilkan hingga 2 angka desimal untuk operasi pembagian dan bilangan floating-point.
+2. Meminta Input:Program meminta memilih operasi yang ingin dilakukan dan meminta pengguna memasukkan bilangan pertama dan kedua.
+3. Pengulangan Operasi dengan do-while:Setelah selesai satu operasi, pengguna dapat memilih untuk melakukan operasi lainnya atau keluar dari program.
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - pilihan: Menyimpan pilihan operasi (1–5).<br>
+   - bilangan1, bilangan2: Menyimpan input bilangan pertama dan kedua (float untuk mendukung desimal).<br>
+   - hasil: Menyimpan hasil perhitungan.<br>
+   - ulang: Mengontrol pengulangan operasi (y/t).<br>
+3. Menu Operasi<br>
+   - Menampilkan menu dengan opsi operasi dan pengguna diminta memasukkan angka pilihan (1–5).<br>
+4. Logika Operasi<br>
+   - Menggunakan switch untuk memilih operasi berdasarkan input pilihan,dengan kondisi :<br>
+      - Jika Penjumlahan : hasil = bilangan1 + bilangan2 dan tampilkan hasil<br>
+      - Jika Pengurangan : hasil = bilangan1 - bilangan2 dan tampilkan hasil<br>
+      - Jika Perkalian   : hasil = bilangan1 x bilangan2 dan tampilkan hasil<br>
+      - Jika pembagian   : Menggunakan kontrol if-else untuk pembagian 0,jika bilangan2 bukan 0 maka programm akan memproses rumus berikut :<br> hasil = 
+                           bilangan1 / bilangan2 dan tampilkan hasil
+      - Jika Modulus (Sisa Bagi) : Menggunakan kontrol if-else untuk sisa bagi 0,jika bilangan2 bukan 0 maka program akan memproses rumus berikut :<br> 
+                                    hasil = (int)bilangan1 % (int)bilangan2 dan tampilkan hasil
+    - Menggunakan Perulangan do-while untuk menanyakan pengguna apakah ingin mengulangi operasi,program akan berjalan terus hingga pengguna menginputkan "t"<br>
+5. Alur Program
+   - Program menampilkan pesan untuk meminta pengguna memilih operasi yang ingin dilakukan dan memasukkan angaka pertama dan kedua.<br>
+   - Program akan melakukan perhitungan sesuai dengan yang telah dipilih sebelumnya <br>
+   - Program akan menampilkan hasil perhitungan dan menanyakan apakah ingin melakukan operasi lain<br>
+   - Program akan berhenti ketika pengguna menginputkan "t" dan memberikan pesan "terimakasih"<br>
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program "TOSERBA" yang dapat menghitung diskon</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah aplikasi sederhana untuk pembelian di toserba (toko serba ada). Program menghitung total biaya yang harus dibayar pelanggan setelah menerapkan diskon berdasarkan total pembelian, dan menampilkan rincian transaksi.<br>
+<br><b>Fitur</b><br>
+1. Input Data Pembeli:Meminta nama pembeli, nama barang, harga barang, dan jumlah barang yang dibeli.<br>
+2. Perhitungan Total Pembelian: Program Mengalikan harga satuan barang dengan jumlah barang untuk mendapatkan total pembelian.<br>
+3. Diskon Berdasarkan Total Pembelian<br>
+  - Diskon diterapkan dengan aturan:<br>
+     - ≤ Rp 75,000: Diskon 5%.<br>
+     - Rp 75,001 – Rp 125,000: Diskon 15%.<br>
+     - ≥ Rp 125,001: Diskon 25% dan tambahan cashback Rp 5,000.<br>
+4. Output : Menampilkan rincian pembelian, total pembelian, diskon, dan total yang harus dibayar.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - harga: Harga barang satuan (float untuk mendukung desimal).<br>
+   - totalPembelian: Total harga sebelum diskon.<br>
+   - diskon: Nilai diskon yang diterapkan.<br>
+   -  totalBayar: Total harga setelah diskon.<br>
+   -  nama dan barang: Menyimpan nama pembeli dan barang.<br>
+   -  jumlah: Jumlah barang yang dibeli.<br>
+  
+3. Rumus Perhitungan Total Pembelian<br>
+Program menggunakan rumus berikut : totalPembelian = harga * jumlah<br>
+     
+4. Alur Program
+   - Program meminta pengguna untuk memasukkan informasi yang diminta:nama pembeli, nama barang, harga barang, dan jumlah barang yang dibeli.<br>
+   - Setelah pengguna memasukkan nama pembeli, nama barang, harga barang, dan jumlah barang yang dibeli, program melakukan perhitungan untuk menghitung total pembelian menggunakan rumus<br>
+   - Program akan menghitung diskon berdasarkan total pembelian dengan kondisi :<br>
+       - Jika Total Pembelian ≤ Rp 75,000: Diskon 5%<br>
+       - Jika Total Pembelian Rp 75,001 – Rp 125,000: Diskon 15%<br>
+       - Jika Total Pembelian ≥ Rp 125,001: Diskon 25% + Cashback Rp 5,000<br>
+   - Program mencetak nama pembeli, nama barang, harga barang, dan jumlah barang yang dibeli.total pembelian dan diskon yang didapatkan.<br>
+   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
+  </p>
+</div>
+
+<div>
+  <h3 align="left">Latihan 3 : Program Menghitung Luas Permukaan Geometeri</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+   Program ini adalah kalkulator untuk menghitung luas permukaan dari berbagai bentuk geometris, termasuk bola, kubus, balok, dan tabung. Program 
+ menyediakan menu untuk memilih bentuk geometris yang ingin dihitung, meminta input , dan menampilkan hasil perhitungan.<br>
+  </p>
+  <b>Fitur</b><br>
+   1. Pilihan Perhitungan Luas Permukaan:<br>
+      - Bola: Menggunakan rumus 4 x π x r²<br>
+      - Kubus: Menggunakan rumus 6 x s²<br>
+      - Balok: Menggunakan rumus 2 x (p x l + p x t + l x t)<br>
+      - Tabung: Menggunakan rumus 2 x π x r x (r+t)<br>
+   2. Pengulangan Perhitungan(do-while):
+      Setelah perhitungan selesai, pengguna dapat memilih untuk melakukan operasi lain tanpa harus menjalankan ulang program.  <br>
+   3. Output : Program akan menampilkan hasil dari perhitungan yang dipilih.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Konstanta dan Variabel:<br>
+   - PI: Konstanta untuk nilai π sebesar 3.14.
+   - luasPermukaan: Variabel hasil perhitungan luas permukaan.
+   - r, s, p, l, t: Variabel untuk parameter geometri seperti jari-jari, sisi, panjang, lebar, dan tinggi.
+   - pilihan: Variabel untuk menyimpan pilihan bentuk geometris.
+   - ulang: Variabel untuk mengulang perhitungan berdasarkan input pengguna.
+   
+4. Alur Program
+   - Meminta input angaka untuk panjang,lebar,sisi,tinggi ataupun jari jari dari operasi yang dipilih.
+   - Menghitung luas permukaan menggunakan rumus berdasarkan operasi yang telah dipilih.
+   - Menampilkan hasil perhitungan operasi.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Menghitung Nilai Akhir Mahasiswa dengan Ketentuan Kelulusan</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+Program ini adalah aplikasi berbasis teks untuk menghitung nilai akhir mahasiswa berdasarkan bobot dari kehadiran, tugas, UTS, dan UAS. Selain itu, program menentukan grade berdasarkan nilai akhir dan memberikan keterangan apakah mahasiswa lulus atau tidak.<br>
+  </p>
+  
+  <b>Fitur</b><br>  
+  1. Input Data Mahasiswa:Nama mahasiswa,NIM,Program Studi, Fakultas.<br>
+  2. Input Nilai Akademik: Nilai Kehadiran (0-100),Nilai Tugas (0-100),Nilai UTS (0-100),Nilai UAS (0-100).
+  3. Perhitungan Nilai Akhir dengan bobot nilai :
+     - Kehadiran: 20%
+     - Tugas: 20%
+     - UTS: 25%
+     - UAS: 35%<br>
+    Dan di hitung menggunakan rumus : Nilai Akhir=(0.2⋅Kehadiran)+(0.2⋅Tugas)+(0.25⋅UTS)+(0.35⋅UAS)
+  4. Penentuan Grade :<br>
+<p>Berikut adalah tabel penentuan grade berdasarkan nilai akhir:</p>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Nilai Akhir (%)</th>
+      <th>Grade</th>
+      <th>Keterangan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0 - 44</td>
+      <td>E</td>
+      <td>Maaf, anda tidak lulus!</td>
+    </tr>
+    <tr>
+      <td>45 - 55</td>
+      <td>D</td>
+      <td>Maaf, anda tidak lulus!</td>
+    </tr>
+    <tr>
+      <td>56 - 65</td>
+      <td>C</td>
+      <td>Anda lulus, tingkatkan lagi untuk kedepannya!</td>
+    </tr>
+    <tr>
+      <td>66 - 75</td>
+      <td>B-</td>
+      <td>Anda lulus dengan baik, tingkatkan terus belajarnya!</td>
+    </tr>
+    <tr>
+      <td>76 - 80</td>
+      <td>B</td>
+      <td>Anda lulus dengan baik, tingkatkan terus belajarnya!</td>
+    </tr>
+    <tr>
+      <td>81 - 85</td>
+      <td>B+</td>
+      <td>Anda lulus dengan baik, tingkatkan terus belajarnya!</td>
+    </tr>
+    <tr>
+      <td>86 - 90</td>
+      <td>A-</td>
+      <td>Selamat! Anda lulus dengan nilai yang sangat memuaskan!</td>
+    </tr>
+    <tr>
+      <td>91 - 100</td>
+      <td>A</td>
+      <td>Selamat! Anda lulus dengan nilai yang sangat memuaskan!</td>
+    </tr>
+  </tbody>
+</table>
+
+  6. Output : Program akan menampilkan Nama mahasiswa,NIM,Program Studi, Fakultas,Nilai Akhir, Grade, dan Keterangan Kelulusan.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - nilaiKehadiran, nilaiTugas, nilaiUTS, nilaiUAS: Menyimpan nilai akademik.
+   - nilaiAkhir: Menyimpan hasil perhitungan nilai akhir.
+   - grade: Menyimpan nilai huruf mahasiswa.
+   - keterangan: Variabel ini menggunakan pointer untuk menyimpan alamat memori dari string keterangan dan menunjuk ke string keterangan berdasarkan 
+     perhitungan nilai akhir yang didapat.
+   
+4. Alur Program
+   - Mengambil input data mahasiswa: Nama mahasiswa,NIM,Program Studi, Fakultas.
+   - Mengambil input nilai akademik: Nilai Kehadiran (0-100),Nilai Tugas (0-100),Nilai UTS (0-100),Nilai UAS (0-100)
+   - Setelah program menyimpan input di variabel masing masing, Program menghitung nilai akhir menggunakan rumus.
+   - Nilai akhir yang didapatkan akan dikelompokkan menggunakan kontrol if-else berdasarkan grade dan setiap grade mengeluarkan pesan kelulusan yang 
+     berbeda.
+   - Program akan mengeluarkan output data mahasiswa,nilai akhir,grade,dan keterangan (pesan kelulusan)
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
 
 <img src="1.1.png" alt="ss" width="400" height="400">
 
