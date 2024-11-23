@@ -99,14 +99,14 @@ Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.
     Program sederhana dalam bahasa C yang mencetak pesan ke konsol menggunakan fungsi printf.<br>
     <img src="1.1.png" alt="ss" width="200" height="200"><br>
    <b>Penjelasan Tiap Baris</b><br>
-1.#include < stdio.h > <br>
-Memasukkan pustaka standar untuk operasi input dan output, seperti printf.<br>
-2.int main()<br>
-Fungsi utama tempat program dimulai.<br>
-3.printf("Hello World!\n");<br>
-Perintah untuk mencetak teks "Hello World!" ke layar. Tanda \n membuat program pindah ke baris baru setelah mencetak.<br>
-4.return 0;<br>
-Mengakhiri program dengan status sukses (kode 0).<br>
+1. #include < stdio.h > <br>
+   Memasukkan pustaka standar untuk operasi input dan output, seperti printf.<br>
+2. int main()<br>
+   Fungsi utama tempat program dimulai.<br>
+3. printf("Hello World!\n");<br>
+   Perintah untuk mencetak teks "Hello World!" ke layar. Tanda \n membuat program pindah ke baris baru setelah mencetak.<br>
+4. return 0;<br>
+   Mengakhiri program dengan status sukses (kode 0).<br>
 
  
   </p>
@@ -129,9 +129,9 @@ Pemrograman C!”
 Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 1. Header<br>
-Program menggunakan pustaka stdio.h untuk mengakses fungsi input-output seperti printf dan scanf.<br>
+   Program menggunakan pustaka stdio.h untuk mengakses fungsi input-output seperti printf dan scanf.<br>
 2. Variabel<br>
-char name[50]; : Sebuah array karakter untuk menyimpan nama lengkap pengguna hingga 50 karakter.<br>
+   char name[50]; : Sebuah array karakter untuk menyimpan nama lengkap pengguna hingga 50 karakter.<br>
 3. Alur Program
    - Program menampilkan pesan untuk meminta pengguna memasukkan nama lengkap.<br>
    - Nama lengkap yang dimasukkan pengguna disimpan dalam variabel name menggunakan scanf.<br>
@@ -140,7 +140,7 @@ char name[50]; : Sebuah array karakter untuk menyimpan nama lengkap pengguna hin
 </div>
 <div>
  <div>
-<h3 align="left">Latihan 1 : Program Menentukan Nilai Akhir Mahasiswa</h3>
+<h3 align="left">Latihan 2 : Program Menentukan Nilai Akhir Mahasiswa</h3>
   <img src="1.1.png" alt="ss" width="200" height="200"><br>
   <p>
   <b>Deskripsi Program</b><br>
@@ -155,50 +155,93 @@ Program ini kemudian menampilkan informasi lengkap beserta nilai akhir pengguna.
 
 <p><b>Fitur</b><br>
 1. Input Data Pribadi:<br>
-    - Nama Mahasiswa<br>
-    - NIM<br>
-    - Program Studi<br>
+    -  Nama Mahasiswa<br>
+    -  NIM<br>
+    -  Program Studi<br>
     - Fakultas<br>
 2. Input Nilai Akademik:<br>
-    - Nilai Praktikum<br>
-    - Nilai UTS<br>
-    - Nilai UAS<br>
+    -  Nilai Praktikum<br>
+    -  Nilai UTS<br>
+    -  Nilai UAS<br>
 3. Perhitungan Nilai Akhir:<br>
    Menggunakan rumus berikut :<br> 
    nilaiAkhir = (0.3 * praktikum) + (0.3 * uts) + (0.4 * uas); <br>
+4. Output yang Informatif:<br>
+   Menampilkan informasi lengkap (Nama, NIM, Prodi, Fakultas) dan nilai mahasiswa dan Nilai Akhirnya.
 </p>
   
 <br><b>Struktur Program</b><br>
 Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 1. Header<br>
-Program menggunakan pustaka stdio.h untuk mengakses fungsi input-output seperti printf dan scanf.<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
 2. Variabel<br>
-char name[50]; : Sebuah array karakter untuk menyimpan nama lengkap pengguna hingga 50 karakter.<br>
+   - Informasi Pribadi:<br>
+      - char nama[100], NIM[100], prodi[100], fakultas[100]<br>
+  - Nilai Akademik:<br>
+     - float praktikum, uts, uas, nilaiAkhir.<br>
 3. Alur Program
-   - Program menampilkan pesan untuk meminta pengguna memasukkan nama lengkap.<br>
-   - Nama lengkap yang dimasukkan pengguna disimpan dalam variabel name menggunakan scanf.<br>
-   - Program menampilkan pesan selamat datang yang memuat nama pengguna.<br>   
+   - Input Data Pribadi: Pengguna diminta untuk memasukkan nama, NIM, program studi, dan fakultas. Data diambil menggunakan fungsi fgets untuk mendukung spasi dalam input.<br>
+   - Input Nilai Akademik: Pengguna memasukkan nilai praktikum, UTS, dan UAS menggunakan scanf.<br>
+   - Perhitungan Nilai Akhir: Program menghitung nilai akhir menggunakan bobot yang telah ditentukan.<br>
+   - Output: Program mencetak data pribadi dan nilai-nilai yang telah dimasukkan, termasuk nilai akhir.  
   </p>
 </div>
 <div>
-  <h3 align="left">Latihan 3 : Program "Hello World"</h3>
-  
+  <h3 align="left">Latihan 3 : Program Menghitung Luas Segitiga</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
   <p>
     <b>Deskipsi Program</b><br>
-    Program sederhana dalam bahasa C yang mencetak pesan ke konsol menggunakan fungsi printf.<br>
-    <img src="1.1.png" alt="ss" width="200" height="200"><br>
-   <b>Penjelasan Tiap Baris</b><br>
-1.#include < stdio.h > <br>
-Memasukkan pustaka standar untuk operasi input dan output, seperti printf.<br>
-2.int main()<br>
-Fungsi utama tempat program dimulai.<br>
-3.printf("Hello World!\n");<br>
-Perintah untuk mencetak teks "Hello World!" ke layar. Tanda \n membuat program pindah ke baris baru setelah mencetak.<br>
-4.return 0;<br>
-Mengakhiri program dengan status sukses (kode 0).<br>
+    Program ini adalah aplikasi sederhana yang dirancang untuk menghitung luas segitiga dan diketahui panjang alas = 8 cm,tinggi = 5 cm. Program menggunakan rumus dasar:Luas = 1/2 x alas x tinggi<br>
+  </p>
+  <p><b>Fitur</b><br>
+  - Perhitungan Luas Segitiga: Program menggunakan nilai alas dan tinggi yang telah ditentukan untuk menghitung luas segitiga.<br>
+  - Output yang Informatif: Program menampilkan hasil perhitungan luas segitiga di terminal.<br>
+</p>
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
 
- 
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - int a: Menyimpan nilai alas segitiga.<br>
+   - int t: Menyimpan nilai tinggi segitiga.<br>
+   - int luasSegitiga: Menyimpan hasil perhitungan luas segitiga.<br>
+3. Perhitungan
+   Menggunakan rumus matematika untuk menghitung luas segitiga: luasSegitiga = (a*t)/2<br>
+4. Output<br>
+   Hasil perhitungan luas segitiga ditampilkan di terminal menggunakan fungsi printf.<br>
+   
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Menghitung Luas Persegi Panjang</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini adalah aplikasi sederhana yang dirancang untuk menghitung luas persegi panjang dengan
+panjang = 10 cm, dan lebar = 5 cm. Program menggunakan rumus dasar:Luas = Panjang x Lebar<br>
+  </p>
+  <p><b>Fitur</b><br>
+  - Perhitungan Luas Persegi panjang: Program menggunakan nilai alas dan tinggi yang telah ditentukan untuk menghitung luas persegi panjang.<br>
+  - Output : Program menampilkan hasil perhitungan luas persegi panjang di terminal.<br>
+</p>
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - int p: Menyimpan nilai panjang persegi panjang.<br>
+   - int l: Menyimpan nilai lebar persegi panjang.<br>
+   - int luasPersegiPanjang: Menyimpan hasil perhitungan luas persegi panjang.<br>
+3. Perhitungan
+   Menggunakan rumus matematika untuk menghitung luas persegi panjang: luasPersegiPanjang = p*l<br>
+4. Output<br>
+   Hasil perhitungan luas persegi panjang ditampilkan di terminal menggunakan fungsi printf.<br>
+   
   </p>
 </div>
 
