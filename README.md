@@ -1396,203 +1396,46 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
   </p>
 </div>
-<div>
-  <h3 align="left">Latihan 4 : Program Rental Film</h3>
-   <img src="1.1.png" alt="ss" width="200" height="200"><br>
-  <p>
-    <b>Deskipsi Program</b><br>
-Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
-     1. Tarif untuk jam pertama adalah Rp 15,000.<br>
-     2. Tarif untuk jam berikutnya adalah 50% dari tarif jam pertama (Rp 7,500). <br>
-Program ini meminta pengguna memasukkan nama dan durasi menonton, lalu menghitung total biaya sewa berdasarkan aturan tersebut. <br>
-  </p>
-  
-  <b>Fitur</b><br>
-  1. Input Pengguna:Nama pengguna dan durasi waktu menonton film dalam jam.<br>
-  2. Perhitungan Biaya:<br>
-     - Tarif untuk jam pertama: Rp 15,000.<br>
-     - Tarif untuk setiap jam berikutnya: Rp 7,500.<br>
-     - Total biaya dihitung otomatis berdasarkan durasi dengan menggunakan if-else dengan kondisi : <br>
-       - Jika hanya 1 jam, biaya adalah Rp 15,000<br>
-       - Jika lebih dari 1 jam, biaya dihitung menggunakan: totalBiaya = tarifPertama + (durasiMenonton - 1) * tarifBerikutnya<br>
-  3. Output : Program akan menampilkan nama,durasi menonton, dan total biaya berdasarkan perhitungan yang didapat.<br>
 
-<br><b>Struktur Program</b><br>
-Program ini terdiri dari bagian utama sebagai berikut:<br>
-
-1. Header<br>
-   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
-2. Variabel<br>
-   - Tipe data character :
-      - nama: Menyimpan nama pengguna.
-   - Tipe data integer :
-      - tarifPertama: Tarif sewa untuk jam pertama.
-      - tarifBerikutnya: Tarif sewa untuk setiap jam berikutnya.
-      - durasiMenonton: Menyimpan durasi menonton yang dimasukkan oleh pengguna.
-      - uas: Menyimpan nilai UAS.
-      - totalBiaya: Menyimpan hasil perhitungan total biaya sewa.
-   
-4. Alur Program
-   - Mengambil input nama pengguna dan durasi menonton.
-   - Menghitung total biaya berdasarkan aturan tarif.
-   - Menampilkan nama pengguna,durasi menonton dan total biaya.
-   - Akhir Program:Program akan menutup program.
-  </p>
-</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## JOB SHEET 11-Operator
+## JOB SHEET 11-File Handling in C
 <div>
-<h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
+<h3 align="left">Latihan 1 : Program Input Biodata Mahasiswa dengan File Handaling </h3>
   <img src="1.1.png" alt="ss" width="200" height="200"><br>
   <p>
   <b>Deskripsi Program</b><br>
-Program ini adalah sebuah aplikasi sederhana dalam bahasa pemrograman C yang digunakan untuk mengkonversi waktu dari format detik ke format yang lebih terstruktur, yaitu jam, menit, dan detik. Pengguna hanya perlu memasukkan jumlah total detik, dan program akan menghitung serta menampilkan hasil konversi dalam format yang mudah dipahami. 
-
+Program ini berfungsi untuk mengumpulkan data biodata mahasiswa (nama, NIM, jurusan, dan program studi) dan menyimpannya ke dalam file teks. 
 <b>Fitur</b><br>
-   - Input waktu dalam detik: Pengguna dapat memasukkan waktu dalam detik yang ingin dikonversi(3700 detik).<br>
-   - Konversi waktu: Program akan mengkonversikan waktu dari total detik ke bentuk jam,menit dan detik.<br>
-   - Output : Hasil akan ditampilkan di layar dalam format "X Jam, Y Menit, Z Detik".<br>  
+   - Input Data Mahasiswa : Pengguna dapat memasukkan nama,NIM,jurusan dan program studi.<br>
+   - Menyimpan Data ke File : Data yang dimasukkan oleh pengguna disimpan dalam sebuah file teks bernama datamahasiswa.txt.File dibuka dalam mode append 
+ ("a"), yang memungkinkan data baru ditambahkan di akhir file tanpa menghapus data yang sudah ada sebelumnya.
+   - Penggunaan Struktur Data (struct) : Program menggunakan struktur data struct Mahasiswa untuk menyimpan informasi mahasiswa 
+   - Output : Setelah semua data mahasiswa disimpan, program memberikan pesan konfirmasi.<br>  
   
 <br><b>Struktur Program</b><br>
 Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 1. Header<br>
    Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
-2. Variabel<br>
-   - j: Menyimpan hasil perhitungan jam.<br>
-   - m: Menyimpan hasil perhitungan menit.<br>
-   - d: Awalnya digunakan untuk input jumlah detik, kemudian menyimpan detik yang tersisa setelah dikonversi.<br>
-3. Proses Konversi<br>
-   Menggunakan rumus sederhana untuk konversi:<br>
-   - Jam = detik / 3600<br>
-   - Menit = detik %(sisa bagi) 3600 / 60<br>
-   - Detik = detik %(sisa bagi) 60 <br>
+2. Struktur Data :<br>
+   - nama[ 100 ]: Menyimpan nama mahasiswa.
+   - nim[ 20 ]: Menyimpan NIM (Nomor Induk Mahasiswa).
+   - jurusan[ 50 ]: Menyimpan jurusan mahasiswa.
+   - programStudi[ 50 ]: Menyimpan program studi mahasiswa.
+3. Fungsi simpanDataKeFile() : Fungsi ini menerima satu parameter berupa struktur Mahasiswa dan bertugas untuk menulis data mahasiswa tersebut ke dalam 
+ sebuah file teks yang bernama datamahasiswa.txt dan estelah proses penulisan selesai, file ditutup dengan fclose(file).
 5. Alur Program
-   - Program menampilkan pesan untuk meminta pengguna memasukkan waktu dalam detik.<br>
-   - Waktu dalam bentuk detik yang dimasukkan pengguna disimpan dalam variabel d menggunakan scanf.<br>
-   - Program mengonversikan waktu dalam detik ke bentuk jam,menit,detik dengan menghitung jumlah jam dengan membagi total detik dengan 3600 lalu
-menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilkan detik yang tersisa setelah dikonversi ke jam dan menit.<br>
-   - Program akan menampilkan hasil dari konversi waktu dalam detik ke bentuk jam,menit,detik<br>
+   - Program dimulai dan meminta input dari pengguna untuk menentukan jumlah mahasiswa yang ingin dimasukkan.
+   - Program melakukan perulangan sesuai jumlah mahasiswa, meminta input untuk setiap mahasiswa (nama, NIM, jurusan, dan program studi).
+   - Setiap data mahasiswa disimpan dalam file datamahasiswa.txt menggunakan fungsi simpanDataKeFile().
+   - Setelah semua data dimasukkan, program menampilkan pesan bahwa data mahasiswa telah berhasil disimpan.
+
+<b> Output Pada File : </b><br>
+
+<img src="1.1.png" alt="ss" width="200" height="200"><br>
   </p>
 </div>
-<div>
- <div>
-<h3 align="left">Latihan 2 : Program Kasir Sederhana</h3>
-  <img src="1.1.png" alt="ss" width="200" height="200"><br>
-  <p>
-  <b>Deskripsi Program</b><br>
-Program ini adalah aplikasi kasir sederhana yang digunakan untuk menghitung total biaya pembelian barang berdasarkan harga satuan dan jumlah barang yang dibeli. Program akan meminta pengguna untuk memasukkan nama mereka, nama barang, harga satuan barang, dan jumlah barang yang dibeli. Hasilnya, program akan menampilkan rincian pembelian dan harga total pembelian barang.<br>
-<br><b>Fitur</b><br>
-1. Input Data Pembeli:Pengguna memasukkan nama,nama barang,harga barang satuan dan jumlah barang dibeli.<br>
-2. Proses Perhitungan: Program menghitung total biaya pembelian dengan mengalikan harga barang satuan dan jumlah barang.<br>
-3. Output: Menampilkan informasi lengkap berupa nama pembeli, nama barang, harga satuan, jumlah barang, dan total biaya.<br>
 
-<br><b>Struktur Program</b><br>
-Program ini terdiri dari bagian utama sebagai berikut:<br>
-
-1. Header<br>
-   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
-2. Variabel<br>
-   - nama: Menyimpan nama pembeli.(tipe data character)<br>
-   - barang: Menyimpan nama barang yang dibeli.(tipe data character)<br>
-   - harga: Menyimpan harga satuan barang (dalam bentuk tipe data float untuk angka desimal).<br>
-   - jumlah: Menyimpan jumlah barang yang dibeli.(tipe data integer)
-   - total: Menyimpan hasil perhitungan total harga pembelian.(dalam bentuk tipe data float untuk angka desimal)<br>
-3. Rumus perhitungan total pembelian<br>
-Program menggunakan rumus berikut : total = harga * jumlah<br>
-     
-4. Alur Program
-   - Program meminta pengguna untuk memasukkan informasi yang diminta:nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli.<br>
-   - Setelah pengguna memasukkan nama pengguna,nama barang, harga barang satuan dan jumlah barang yang dibeli, program melakukan perhitungan untuk menghitung total pembelian menggunakan rumus<br>
-   - Program mencetak nama pengguna,nama barang, harga barang satuan,jumlah barang yang dibeli dan total pembelian.<br>
-   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
-  </p>
-</div>
-<div>
-  <h3 align="left">Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa</h3>
-   <img src="1.1.png" alt="ss" width="200" height="200"><br>
-  <p>
-    <b>Deskipsi Program</b><br>
-    Program ini merupakan aplikasi sederhana untuk menghitung nilai akhir seorang mahasiswa berdasarkan bobot dari komponen-komponen nilai yang terdiri dari presensi, praktek, UTS (Ujian Tengah Semester), dan UAS (Ujian Akhir Semester). <br>
-  </p>
-  <b>Fitur</b><br>
-   1. Input Informasi Mahasiswa:Nama mahasiswa,Nilai presensi, praktek, UTS, dan UAS.<br>
-   2. Perhitungan Nilai Akhir: Menggunakan bobot tertentu untuk setiap komponen nilai: Presensi: 10%,Praktek: 20%,UTS: 30%,UAS: 40%.Setiap komponen nilai 
-       tersebut akan dimasukkan kedalam rumus berikut :nilaiAkhir = (0.1 * presensi) + (0.2 * praktek) + (0.3 * uts) + (0.4 * uas)  <br>
-   3. Output : Program akan menampilkan nama mahasiswa dan nilai akhir mahasiswa berdasarkan perhitungan yang didapat.<br>
-
-
-  
-<br><b>Struktur Program</b><br>
-Program ini terdiri dari bagian utama sebagai berikut:<br>
-
-1. Header<br>
-   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
-2. Variabel<br>
-   - Tipe data character :
-      - nama: Menyimpan nama mahasiswa.
-   - Tipe data float :
-      - presensi: Menyimpan nilai presensi.
-      - praktek: Menyimpan nilai praktek.
-      - uts: Menyimpan nilai UTS.
-      - uas: Menyimpan nilai UAS.
-      - nilaiAkhir: Menyimpan hasil perhitungan nilai akhir mahasiswa.
-   
-4. Alur Program
-   - Mengambil input nama mahasiswa dan nilai presensi,praktek,UTS dan UAS.
-   - Menghitung nilai akhir menggunakan rumus berdasarkan bobot yang telah ditentukan.
-   - Menampilkan nama mahasiswa nilai akhir yang sudah dihitung.
-   - Akhir Program:Program akan menutup program.
-  </p>
-</div>
-<div>
-  <h3 align="left">Latihan 4 : Program Rental Film</h3>
-   <img src="1.1.png" alt="ss" width="200" height="200"><br>
-  <p>
-    <b>Deskipsi Program</b><br>
-Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
-     1. Tarif untuk jam pertama adalah Rp 15,000.<br>
-     2. Tarif untuk jam berikutnya adalah 50% dari tarif jam pertama (Rp 7,500). <br>
-Program ini meminta pengguna memasukkan nama dan durasi menonton, lalu menghitung total biaya sewa berdasarkan aturan tersebut. <br>
-  </p>
-  
-  <b>Fitur</b><br>
-  1. Input Pengguna:Nama pengguna dan durasi waktu menonton film dalam jam.<br>
-  2. Perhitungan Biaya:<br>
-     - Tarif untuk jam pertama: Rp 15,000.<br>
-     - Tarif untuk setiap jam berikutnya: Rp 7,500.<br>
-     - Total biaya dihitung otomatis berdasarkan durasi dengan menggunakan if-else dengan kondisi : <br>
-       - Jika hanya 1 jam, biaya adalah Rp 15,000<br>
-       - Jika lebih dari 1 jam, biaya dihitung menggunakan: totalBiaya = tarifPertama + (durasiMenonton - 1) * tarifBerikutnya<br>
-  3. Output : Program akan menampilkan nama,durasi menonton, dan total biaya berdasarkan perhitungan yang didapat.<br>
-
-<br><b>Struktur Program</b><br>
-Program ini terdiri dari bagian utama sebagai berikut:<br>
-
-1. Header<br>
-   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
-2. Variabel<br>
-   - Tipe data character :
-      - nama: Menyimpan nama pengguna.
-   - Tipe data integer :
-      - tarifPertama: Tarif sewa untuk jam pertama.
-      - tarifBerikutnya: Tarif sewa untuk setiap jam berikutnya.
-      - durasiMenonton: Menyimpan durasi menonton yang dimasukkan oleh pengguna.
-      - uas: Menyimpan nilai UAS.
-      - totalBiaya: Menyimpan hasil perhitungan total biaya sewa.
-   
-4. Alur Program
-   - Mengambil input nama pengguna dan durasi menonton.
-   - Menghitung total biaya berdasarkan aturan tarif.
-   - Menampilkan nama pengguna,durasi menonton dan total biaya.
-   - Akhir Program:Program akan menutup program.
-  </p>
-</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<img src="1.1.png" alt="ss" width="400" height="400">
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
