@@ -1000,6 +1000,449 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 ## JOB SHEET 8- Fungsi dan Prosedur
 <div>
+<h3 align="left">Latihan 1 : Program Perkalian Menggunakan Rekursi </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini menghitung perkalian dua bilangan dengan pendekatan rekursif. Dalam program, perkalian diimplementasikan sebagai penjumlahan berulang menggunakan fungsi rekursif, tanpa menggunakan operator perkalian bawaan (*).
+
+<b>Fitur</b><br>
+   - Perhitungan Rekursif: Program menggunakan rekursi untuk menghitung hasil perkalian.<br>
+   - Hasil Perkalian Ditampilkan:Menampilkan hasil akhir dari operasi perkalian dalam format a x b = hasil.<br>
+
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - perkalian: Fungsi rekursif untuk menghitung perkalian dengan penjumlahan berulang.
+   - a: Angka pertama yang akan dikalikan.
+   - b: Angka kedua (jumlah iterasi penjumlahan).
+   - num1, num2 :Bilangan pertama dan kedua untuk perkalian.
+   - hasil : Menyimpan hasil akhir perkalian.
+3. Fungsi Rekursif<br>
+   Menggunakan rumus sederhana untuk konversi:<br>
+   - Rekursi terjadi di fungsi perkalian(a, b).
+   - Kondisi Dasar:Jika b == 0, fungsi mengembalikan 0 (menghentikan rekursi).
+   - Kondisi Rekursif: Jika b > 0, fungsi menambahkan a ke hasil dari perkalian(a, b - 1) atau tambahkan a sebanyak b kali.
+5. Alur Program
+   - Dua bilangan (dalam kode ini: num1 = 12 dan num2 = 6) telah didefinisikan dalam program.
+   - Panggilan Fungsi Rekursif:
+      - Fungsi perkalian(a, b) dipanggil dengan dua bilangan.
+      - Fungsi bekerja dengan mengurangi b hingga mencapai 0.
+      - Setiap langkah menambahkan nilai a ke total hasil.
+   - Nilai hasil perkalian dikembalikan oleh fungsi perkalian dan ditampilkan.<br>
+  
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Kalkulator Sederhana Menggunakan Fungsi</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah kalkulator sederhana yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Pengguna akan diminta untuk memasukkan dua bilangan dan operator aritmatika, kemudian program akan menampilkan hasil operasi sesuai pilihan pengguna.<br>
+<br><b>Fitur</b><br>
+1. Penggunaan Fungsi Pada :<br>
+    - Penjumlahan ( + ) 
+    - Pengurangan ( - )  
+    - Perkalian ( * ) 
+    - Pembagian ( / )
+2. Validasi Pembagian: Program memastikan bahwa pembagian tidak dilakukan dengan bilangan nol (0) untuk menghindari kesalahan menggunakan if-else.<br>
+3. Input : Pengguna dapat memasukkan angka dan operator sesuai kebutuhan.
+3. Output: Menampilkan hasil perhitungan dalam format desimal dengan dua angka di belakang koma.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - penjumlahan: Mengembalikan hasil penjumlahan dua bilangan.
+   - pengurangan: Mengembalikan hasil pengurangan dua bilangan.
+   - perkalian: Mengembalikan hasil perkalian dua bilangan.
+   - pembagian: Mengembalikan hasil pembagian dua bilangan dengan validasi nol.
+   - num1, num2: Bilangan pertama dan kedua yang akan dioperasikan. 
+   - operasi : Operator aritmatika yang dipilih pengguna<br>
+3. Alur Program
+   - Pengguna diminta memasukkan dua angka (num1, num2) dan operator aritmatika (+, -, *, /).
+   - Program memeriksa apakah operator yang dimasukkan valid,jika operator tidak valid, program akan menampilkan pesan error.
+   - Program melakukan perhitungan berdasarkan operator yang dipilih.
+   - Program menampilkan hasil operasi aritmatika dalam format a operator b = hasil.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Menghitung Luas dan Keliling Lingkaran Menggunakan Fungsi</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+   Program ini dirancang untuk menghitung luas dan keliling lingkaran berdasarkan nilai jari-jari yang diinputkan oleh pengguna. Program memanfaatkan konstanta PI dan dua fungsi terpisah untuk melakukan perhitungan, yaitu fungsi luas dan keliling. <br>
+  </p>
+  <b>Fitur</b><br>
+   1. Menghitung Luas Lingkaran:Fungsi luas digunakan untuk perhitungan ini dengan menggunakan rumus : π × r × r.<br>
+   2. Menghitung Keliling Lingkaran: Fungsi keliling digunakan untuk perhitungan ini dengan menggunakan rumus : 2 × π × r. <br>
+   3. Input & Output : Pengguna dapat memasukkan nilai jari-jari sesuai keinginan, dan program akan secara otomatis menghitung serta menampilkan hasilnya. 
+ <br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   - Menggunakan pustaka stdio.h untuk fungsi input-output.
+   - Konstanta PI didefinisikan sebagai 3.14 dengan menggunakan #define.<br>
+2. Variabel<br>
+   - JariJari : Menyimpan nilai jari-jari lingkaran yang diinputkan oleh pengguna.
+3. Penggunaan Fungsi :
+   - float luas(float JariJari) : Menghitung luas lingkaran.
+   - float keliling(float JariJari) : Menghitung keliling lingkaran.
+   
+5. Alur Program
+   - Program meminta pengguna untuk memasukkan nilai jari-jari lingkaran.
+   - Nilai jari-jari yang diinputkan diproses oleh dua fungsi : Fungsi luas untuk menghitung luas lingkaran dan Fungsi keliling untuk menghitung keliling 
+ lingkaran.
+   - Program menampilkan hasil perhitungan luas dan keliling ke layar.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Menghitung Diskon Menggunakan Fungsi</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+Program ini dirancang untuk menghitung diskon berdasarkan total pembelian dan kemudian menghitung jumlah yang harus dibayarkan setelah diskon diterapkan. 
+ Program ini menggunakan fungsi untuk menghitung diskon, serta menerima input dari pengguna dan menampilkan hasil perhitungan.<br>
+  </p>
+  
+  <b>Fitur</b><br>
+  1. Input Total Pembelian : engguna diminta untuk memasukkan total pembelian mereka.<br>
+  2. Perhitungan Diskon Berdasarkan Kategori :<br>
+     - Tidak Ada Diskon: Jika total pembelian kurang dari Rp. 1.000.000, maka tidak ada diskon yang diberikan.
+     - Diskon 20%: Jika total pembelian antara Rp. 1.000.000 dan Rp. 2.999.999, pengguna akan menerima diskon sebesar 20%.
+     - Diskon 35%: Jika total pembelian lebih dari atau sama dengan Rp. 3.000.000, pengguna akan menerima diskon sebesar 35%.
+  3. Perhitungan Jumlah yang Harus Dibayar :Setelah diskon dihitung, program akan mengurangi jumlah total pembelian dengan diskon yang diperoleh untuk menghasilkan jumlah yang harus dibayarkan oleh pengguna. Hasil ini akan ditampilkan sebagai total bayar.
+  4. Output : Setelah perhitungan selesai, program akan menampilkan Total pembelian, Diskon dan Biaya yang harus dibayar setelah diskon, 
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - totalPembelian : untuk menyimpan total pembelian yang diinput oleh pengguna.
+   - diskon : Menyimpan hasil diskon yang dihitung oleh fungsi potong() berdasarkan totalPembelian.
+   - totalBayar : Menyimpan total yang harus dibayarkan setelah diskon diterapkan. Nilai ini dihitung dengan mengurangi totalPembelian dengan nilai diskon.
+3. Fungsi potong(float total) :
+     - Proses :
+        - Jika total pembelian kurang dari 1.000.000, maka tidak ada diskon.
+        - Jika total pembelian antara 1.000.000 hingga 2.999.999, maka diskon yang diberikan adalah 20%.
+        - Jika total pembelian lebih dari atau sama dengan 3.000.000, maka diskon yang diberikan adalah 35%.
+   
+4. Alur Program
+   - Program meminta input pengguna untuk total pembelian
+   - Program kemudian memanggil fungsi potong() dengan totalPembelian untuk menghitung diskon yang sesuai.
+   - Berdasarkan nilai diskon, program menghitung total yang harus dibayar setelah diskon
+   - Program menampilkan hasil diskon dan total yang harus dibayar.
+  </p>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## JOB SHEET 9-Pointer
+<div>
+<h3 align="left">Latihan 1 : Program Cetak Huruf dari Kata Secara Terbalik </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini bertujuan untuk mencetak sebuah kata secara terbalik, dimulai dari karakter terakhir hingga karakter pertama. Fungsi utama KataKata menerima sebuah string dan mencetaknya dengan cara yang menarik, di mana setiap kali mencetak, dimulai dari satu karakter lebih sedikit hingga akhirnya hanya karakter pertama yang tersisa. Program ini menggunakan konsep pointer dalam bahasa C untuk memanipulasi string secara efisien.
+
+<b>Fitur</b><br>
+   - Input Kata: Program ini mencetak kata yang telah ditentukan, dalam hal ini kata "BORLAND".
+   - Pencetakan Terbalik: Program ini mencetak kata secara terbalik mulai dari karakter terakhir hingga karakter pertama. Setelah itu, satu karakter dari 
+ akhir string dihapus pada setiap langkah berikutnya.
+   - Output : utput Berulang: Program ini mencetak kata secara bertahap, dimulai dengan seluruh kata, kemudian mengurangi satu karakter pada setiap baris 
+ hingga hanya karakter pertama yang tersisa.
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf.<br>
+2. Variabel<br>
+   - j: Menyimpan hasil perhitungan jam.<br>
+   - m: Menyimpan hasil perhitungan menit.<br>
+   - d: Awalnya digunakan untuk input jumlah detik, kemudian menyimpan detik yang tersisa setelah dikonversi.<br>
+3. Fungsi KataKata: Fungsi ini menerima parameter berupa sebuah string kata dan mencetak string tersebut secara terbalik menggunakan pointer.akhir adalah pointer yang menunjuk pada karakter terakhir dari string, dan program mencetak karakter dari posisi ini hingga karakter pertama secara bertahap.
+
+4. Alur Program
+   - Program dimulai dengan mendeklarasikan string "BORLAND".
+   - Fungsi KataKata dipanggil dengan parameter string tersebut.Dalam fungsi KataKata, pointer akhir diatur untuk menunjuk pada karakter terakhir dari string.
+   - Program kemudian memasuki loop, mencetak karakter dari posisi akhir hingga mencapai posisi pertama, dan mengurangi satu karakter pada setiap iterasi.
+   - Proses ini berlanjut hingga seluruh kata dicetak dengan mengurangi satu karakter di setiap baris.
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Membalikkan Kata</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini digunakan untuk membalikkan urutan karakter dalam sebuah kalimat yang dimasukkan oleh pengguna. Program ini menggunakan konsep pointer dalam bahasa C untuk mengakses dan menukar karakter antara posisi awal dan akhir string, sehingga menghasilkan string yang dibalik.<br>
+<br><b>Fitur</b><br>
+1. Input Kalimat: Pengguna memasukkan sebuah kalimat (maksimal 100 karakter) yang akan dibalikkan urutannya.<br>
+2. Pembalikan Kalimat: Menggunakan pointer untuk mengakses dan menukar karakter pertama dan terakhir secara berulang hingga seluruh kalimat dibalik.<br>
+3. Output: Program menampilkan kalimat yang telah dibalikkan.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - kalimat[ 100 ]: Menyimpan kalimat yang dimasukkan oleh pengguna.
+   - awal, akhir: Pointer yang digunakan untuk menunjuk karakter pertama dan terakhir dalam kalimat.
+  
+3.Fungsi Kebalikan: Fungsi ini menerima parameter berupa string ( char *str ) dan membalikkan urutan karakter dalam string tersebut dengan menggunakan dua pointer, awal dan akhir, yang saling bergerak menuju tengah.<br>
+
+4. Alur Program
+   - Pengguna diminta untuk memasukkan sebuah kalimat.
+   - Fungsi Kebalikan akan membalikkan urutan kalimat dengan menukar karakter antara posisi pertama dan terakhir hingga seluruh kalimat dibalik.
+   - Program menampilkan kalimat yang telah dibalikkan.
+   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Contoh Penggunaan Pointer</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+    Program ini berfungsi untuk menjelaskan penggunaan pointer dalam bahasa C dengan memanipulasi variabel dan nilai yang ditunjuk oleh pointer. Program ini mendemonstrasikan dua jenis cara penggunaan variabel dan pointer untuk menyimpan serta menampilkan nilai variabel yang berbeda. Pada program ini, terdapat dua bagian jawaban yang menunjukkan bagaimana operasi dasar pointer dan variabel bekerja dalam C. <br>
+  </p>
+  <b>Pertanyaan</b><br>
+  A. - Lesley = 57082<br>
+     - Layla = Lesley<br>
+     - Balmond = Layla + 1<br>
+   a) Berapakah nilai Layla?<br>
+   b) Berapakah nilai Balmond?<br>
+
+  B. - Lesley = 57082<br>
+     - Layla = &Lesley<br>
+     - Balmond = *Layla + 1<br>
+  a) Berapakah nilai Layla?<br>
+  b) Berapakah nilai Balmond?<br>
+
+   <b>Jawaban</b><br>
+   Bagian A :<br>
+    a. Nilai Layla: 57082<br>
+    b. Nilai Balmond: 57083<br>
+
+   Bagian B :<br>
+    a. Nilai Layla: 00000000005FFE88<br>
+    b. Nilai Balmond: 57083<br>
+
+    Output Program :<br>
+    <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <b>Fitur</b><br>
+   1. Variabel dan Assignment : Menggunakan variabel biasa dan pointer untuk menyimpan serta memanipulasi nilai variabel lain dan Variabel pertama 
+ (Lesley) digunakan untuk mendemonstrasikan pengaruh perubahan nilai dan alamat memori yang disalin ke variabel lain.<br>
+   2. Pointer: Program juga menggunakan pointer untuk menyimpan alamat memori dari variabel Lesley, yang kemudian digunakan untuk mendapatkan nilai 
+ variabel yang ditunjuk.  <br>
+   3. Output : Menampilkan dua set hasil: satu berdasarkan nilai dari variabel langsung (LaylaA dan BalmondA), dan satu berdasarkan penggunaan pointer 
+ untuk menunjuk alamat variabel dan mengambil nilai dari alamat tersebut (LaylaB dan BalmondB).<br>
+
+
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Lesley: Variabel integer dengan nilai 57082.
+   - LaylaA: Menyimpan nilai dari Lesley.
+   - BalmondA: Menyimpan nilai LaylaA + 1.
+   - LaylaB: Pointer yang menyimpan alamat dari variabel Lesley.
+   - BalmondB: Menyimpan nilai yang ditunjuk oleh pointer LaylaB ditambah 1.
+3. Bagian A: Menampilkan nilai dari LaylaA dan BalmondA.
+4. Bagian B: Menampilkan alamat memori yang ditunjuk oleh pointer LaylaB dan nilai yang disalin dari alamat tersebut untuk variabel BalmondB.
+5. Alur Program
+   - Variabel Lesley diinisialisasi dengan nilai 57082.
+   - Variabel LaylaA disalin dari nilai Lesley.
+   - Variabel BalmondA dihitung dengan menambah 1 pada nilai LaylaA.
+   - Pointer LaylaB disalin dengan alamat dari Lesley.
+   - Variabel BalmondB diambil dari nilai yang ditunjuk oleh LaylaB dan ditambah 1.
+   - Menampilkan hasil dari manipulasi variabel dalam dua bagian:
+      - Menampilkan nilai variabel (LaylaA dan BalmondA).
+      - Menampilkan alamat pointer dan nilai yang ditunjuk oleh pointer (LaylaB dan BalmondB).
+  </p>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## JOB SHEET 10-Enumerasi dan Structure
+<div>
+<h3 align="left">Latihan 1 : Program Permainan Menebak Angka </h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Program ini adalah permainan tebak angka di mana pemain diminta untuk menebak angka yang dihasilkan secara acak oleh komputer. Pemain diberikan petunjuk 
+ apakah angka yang ditebak lebih besar atau lebih kecil dari angka yang dihasilkan. Program ini akan terus berlanjut hingga pemain berhasil menebak angka 
+ yang benar, dan memberikan informasi tentang jumlah percobaan yang diperlukan. Setelah itu, pemain dapat memilih untuk bermain lagi atau keluar dari 
+ permainan.<br>
+    
+<b>Fitur</b><br>
+   - Tebakan Angka Acak: Program menghasilkan angka acak antara 1 hingga 20 yang harus ditebak oleh pemain.
+   - Petunjuk: Program memberikan petunjuk apakah angka yang ditebak lebih besar atau lebih kecil dari angka yang benar.
+   - Percobaan: Program menghitung jumlah percobaan yang dibutuhkan pemain untuk menebak angka dengan benar.
+   - Pilihan untuk Bermain Lagi: Setelah menebak angka dengan benar, pemain diberi opsi untuk bermain lagi. Jika pemain memilih 'y' atau 'Y', permainan akan dimulai dari awal dengan angka yang baru.
+   - Penggunaan Angka Acak: Angka yang dihasilkan untuk tebakannya acak setiap kali permainan dimulai, berkat penggunaan fungsi rand() yang diinisialisasi dengan srand(time(NULL)).
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output seperti printf dan scanf dan pustaka time.h.<br>
+2. Variabel<br>
+   - angka : Variabel ini menyimpan angka acak yang dihasilkan oleh komputer, yang harus ditebak oleh pemain.
+   - tebakan : Variabel ini digunakan untuk menyimpan nilai tebakan yang dimasukkan oleh pemain.
+   - percobaan : Variabel ini digunakan untuk menghitung jumlah percobaan yang telah dilakukan oleh pemain.
+3. Fungsi mulaiGame : <br>
+   - Fungsi ini menangani logika inti permainan, termasuk pengaturan angka acak, pemrosesan input tebakan, dan pemberian petunjuk hingga pemain menebak angka dengan benar.
+   - Menggunakan loop do-while untuk meminta pemain memasukkan tebakan sampai angka yang benar ditemukan.
+  
+5. Alur Program
+   - Program dimulai dengan menginisialisasi fungsi rand() dengan srand(time(NULL)) untuk menghasilkan angka acak yang berbeda setiap kali program dijalankan.
+   - Fungsi mulaiGame dijalankan, dan komputer memilih angka acak antara 1 hingga 20.
+   - Program mengonversikan waktu dalam detik ke bentuk jam,menit,detik dengan menghitung jumlah jam dengan membagi total detik dengan 3600 lalu
+menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilkan detik yang tersisa setelah dikonversi ke jam dan menit.<br>
+   - Pemain diminta untuk menebak angka yang dipilih program. Setiap tebakan akan dibandingkan dengan angka yang benar.Program memberikan petunjuk apakah tebakan terlalu besar atau terlalu kecil.Program menghitung jumlah percobaan yang diperlukan untuk menebak angka yang benar.
+   - Setelah pemain menebak dengan benar, jumlah percobaan akan ditampilkan, dan pemain ditanya apakah ingin bermain lagi,jika tidak program akan berhenti.
+  </p>
+</div>
+<div>
+ <div>
+<h3 align="left">Latihan 2 : Program Menentukan Zodiak</h3>
+  <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+  <b>Deskripsi Program</b><br>
+Pada program ini, kita menggunakan struktur data struct untuk menyimpan informasi mengenai setiap zodiak, termasuk tanggal mulai dan tanggal berakhirnya zodiak tersebut dalam setahun. Program kemudian meminta input tanggal lahir pengguna dan menentukan zodiak berdasarkan input tersebut.<br>
+<br><b>Fitur</b><br>
+1. Struktur Zodiak: Struktur ini menyimpan informasi tentang nama zodiak dan tanggal mulai dan berakhirnya zodiak tersebut.<br>
+2. Array zodiaks: Array ini berisi data tentang 12 zodiak beserta tanggal mulai dan berakhirnya.<br>
+3. Menerima Input Tanggal Lahir : Program meminta input pengguna berupa tanggal lahir dalam format tgl-bln-thn. Nilai tersebut disimpan dalam variabel tgl, bln, dan thn.<br>
+4. Menentukan Zodiak Berdasarkan Tanggal Lahir: Di sini, program memeriksa apakah tanggal lahir pengguna sesuai dengan rentang tanggal untuk setiap zodiak. Jika tanggal lahir berada dalam rentang tersebut, nama zodiak akan disimpan dalam variabel zodiak.<br>
+5. Output : Jika program berhasil menemukan zodiak berdasarkan input, maka tanggal lahir dan zodiak yang sesuai akan ditampilkan. Jika tidak ditemukan (misalnya input tanggal tidak valid), maka program akan menampilkan pesan "Tanggal lahir tidak valid."<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel : Variabel disimpan dalam struct Zodiak untuk menyimpan informasi.<br>
+   - nama[ 20 ]: Menyimpan nama zodiak
+   - startDay dan startMonth: Menyimpan hari dan bulan mulai zodiak.
+   - endDay dan endMonth: Menyimpan hari dan bulan berakhirnya zodiak.
+   - tgl: Variabel untuk menyimpan tanggal lahir pengguna.
+   - bln: Variabel untuk menyimpan bulan lahir pengguna.
+   - thn: Variabel untuk menyimpan tahun lahir pengguna
+   - zodiak: Variabel zodiak digunakan untuk menyimpan nama zodiak yang cocok berdasarkan tanggal lahir pengguna. Variabel ini bertipe char* yang menyimpan alamat dari nama zodiak yang ditemukan.
+  
+3. Logika Pencocokan:<br>
+   - Program memeriksa apakah bulan dan tanggal lahir pengguna berada dalam rentang waktu mulai dan berakhirnya setiap zodiak. Setiap zodiak memiliki tanggal mulai dan tanggal berakhir.
+   - Dengan membandingkan bulan dan tanggal lahir pengguna terhadap periode ini, program dapat menentukan zodiak yang sesuai.<br>
+Program menggunakan rumus berikut : total = harga * jumlah<br>
+     
+5. Alur Program
+   - Program akan meminta pengguna memasukkan tanggal lahir.<br>
+   - Setelah pengguna memasukkan tanggal lahir,program akan memproses untuk menentukan zodiak yang sesuai.
+   - Program mencetak tanggal lahir dan zodiak yang sesuai.<br>
+   - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 3 : Program Menyimpan Data Mahasiswa Menggunakan Struktur</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+   Program yang Anda berikan adalah program C untuk mengelola data mahasiswa. Program ini menggunakan struktur data struct untuk menyimpan informasi tentang mahasiswa, seperti NPM, nama, tanggal lahir, alamat, dan nomor telepon. <br>
+  </p>
+  <b>Fitur</b><br>
+   1. Input Data Mahasiswa: NPM,Nama mahasiswa,Tanggal Lahir, Alamat dan Nomor HP<br>
+   2. Pemberian Pilihan untuk Input Data Baru : Setelah data satu mahasiswa dimasukkan, program menanyakan apakah pengguna ingin menambah data mahasiswa lagi. Ini dilakukan dengan menanyakan pilihan melalui input karakter ('y' untuk ya, 't' untuk tidak).<br>
+   3. Penggunaan Struktur Data : Struktur Mahasiswa berisi atribut yang sesuai untuk menyimpan informasi mahasiswa, seperti NPM, nama, tanggal lahir, alamat, dan nomor HP.<br>
+   4. Output : Setelah selesai memasukkan data, program menampilkan daftar beserta data mahasiswa yang telah dimasukkan.<br>
+
+
+  
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Deklarasi Struktur Mahasiswa: Program ini menggunakan struktur Mahasiswa yang memiliki beberapa variabel:<br>
+   - npm: Untuk menyimpan nomor pokok mahasiswa (bilangan bulat).
+   - nama: Untuk menyimpan nama mahasiswa (string dengan maksimal 50 karakter).
+   - tgl_lahir: Untuk menyimpan tanggal lahir mahasiswa dengan format dd-mm-yyyy (string dengan panjang 11 karakter).
+   - alamat: Untuk menyimpan alamat mahasiswa (string dengan maksimal 100 karakter).
+   - hp: Untuk menyimpan nomor telepon mahasiswa (bilangan bulat).
+   
+4. Alur Program
+   - Pengguna diminta untuk memasukkan data mahasiswa
+   - Setelah setiap mahasiswa dimasukkan, program menanyakan kepada pengguna apakah mereka ingin memasukkan data mahasiswa lain. Ini dilakukan melalui input karakter ('y' untuk ya, 't' untuk tidak).
+   - Setelah proses input selesai (pengguna memilih untuk berhenti), program menampilkan data mahasiswa yang telah dimasukkan.
+   - Program mencetak informasi setiap mahasiswa yang disimpan dalam array mahasiswa[] meliputi :NPM,Nama mahasiswa,Tanggal Lahir, Alamat dan Nomor HP
+   - Data mahasiswa ditampilkan dalam format yang mudah dibaca dalam satu baris per mahasiswa.
+   - Akhir Program:Program kemudian berakhir dan mengembalikan nilai 0 untuk menunjukkan eksekusi yang berhasil.
+
+  </p>
+</div>
+<div>
+  <h3 align="left">Latihan 4 : Program Rental Film</h3>
+   <img src="1.1.png" alt="ss" width="200" height="200"><br>
+  <p>
+    <b>Deskipsi Program</b><br>
+Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
+     1. Tarif untuk jam pertama adalah Rp 15,000.<br>
+     2. Tarif untuk jam berikutnya adalah 50% dari tarif jam pertama (Rp 7,500). <br>
+Program ini meminta pengguna memasukkan nama dan durasi menonton, lalu menghitung total biaya sewa berdasarkan aturan tersebut. <br>
+  </p>
+  
+  <b>Fitur</b><br>
+  1. Input Pengguna:Nama pengguna dan durasi waktu menonton film dalam jam.<br>
+  2. Perhitungan Biaya:<br>
+     - Tarif untuk jam pertama: Rp 15,000.<br>
+     - Tarif untuk setiap jam berikutnya: Rp 7,500.<br>
+     - Total biaya dihitung otomatis berdasarkan durasi dengan menggunakan if-else dengan kondisi : <br>
+       - Jika hanya 1 jam, biaya adalah Rp 15,000<br>
+       - Jika lebih dari 1 jam, biaya dihitung menggunakan: totalBiaya = tarifPertama + (durasiMenonton - 1) * tarifBerikutnya<br>
+  3. Output : Program akan menampilkan nama,durasi menonton, dan total biaya berdasarkan perhitungan yang didapat.<br>
+
+<br><b>Struktur Program</b><br>
+Program ini terdiri dari bagian utama sebagai berikut:<br>
+
+1. Header<br>
+   Menggunakan pustaka stdio.h untuk fungsi input-output.<br>
+2. Variabel<br>
+   - Tipe data character :
+      - nama: Menyimpan nama pengguna.
+   - Tipe data integer :
+      - tarifPertama: Tarif sewa untuk jam pertama.
+      - tarifBerikutnya: Tarif sewa untuk setiap jam berikutnya.
+      - durasiMenonton: Menyimpan durasi menonton yang dimasukkan oleh pengguna.
+      - uas: Menyimpan nilai UAS.
+      - totalBiaya: Menyimpan hasil perhitungan total biaya sewa.
+   
+4. Alur Program
+   - Mengambil input nama pengguna dan durasi menonton.
+   - Menghitung total biaya berdasarkan aturan tarif.
+   - Menampilkan nama pengguna,durasi menonton dan total biaya.
+   - Akhir Program:Program akan menutup program.
+  </p>
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## JOB SHEET 11-Operator
+<div>
 <h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
   <img src="1.1.png" alt="ss" width="200" height="200"><br>
   <p>
