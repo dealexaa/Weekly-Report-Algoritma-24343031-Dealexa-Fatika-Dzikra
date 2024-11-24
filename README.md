@@ -2,7 +2,7 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra.git">
     <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Logo" width="200" height="100">
   </a>
 
@@ -20,7 +20,7 @@
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
 
-<a href="https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra/edit/main/README.md#job-sheet-1---pengantar-algoritma-dan-pemrograman"> JOB SHEET 1 - Pengantar Algoritma dan Pemrograman.</a>
+<a href="#job-sheet-1---pengantar-algoritma-dan-pemrograman"> JOB SHEET 1 - Pengantar Algoritma dan Pemrograman.</a>
 - [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
 - [JOB SHEET 2-Pemograman Dasar C](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
 - [JOB SHEET 3-Variabel,Konstanta, dan Tipe Data](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
