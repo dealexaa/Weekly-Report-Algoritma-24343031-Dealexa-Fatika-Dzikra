@@ -114,7 +114,7 @@ Output : <br>
 ## JOB SHEET 2-Pemograman Dasar C
 <div>
 <h3 align="left">Latihan 1 : Program "Selamat Datang dalam Pemograman C!"</h3>
-  <img src="gamabr/2.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/2.1.png" alt="ss" width="300" height="100"><br>
   
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi sederhana yang dibuat dengan bahasa C. Program ini bertujuan untuk menyapa pengguna dengan menampilkan pesan selamat datang yang ditampilkan berdasarkan nama lengkap yang dimasukkan oleh pengguna.Program akan menampilkan pesan “Selamat Datang <nama> dalam
@@ -140,7 +140,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Menentukan Nilai Akhir Mahasiswa</h3>
-  <img src="gambar/2.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/2.2.png" alt="ss" width="300" height="300"><br>
   
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi sederhana yang memungkinkan pengguna untuk:<br>
@@ -185,7 +185,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas Segitiga</h3>
-   <img src="gambar/2.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/2.3.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini adalah aplikasi sederhana yang dirancang untuk menghitung luas segitiga dan diketahui panjang alas = 8 cm,tinggi = 5 cm. Program menggunakan rumus dasar:Luas = 1/2 x alas x tinggi<br>
@@ -212,7 +212,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Luas Persegi Panjang</h3>
-   <img src="gambar/2.4.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/2.4.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini adalah aplikasi sederhana yang dirancang untuk menghitung luas persegi panjang dengan
@@ -244,7 +244,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 3-Variabel,Konstanta, dan Tipe Data
 <div>
 <h3 align="left">Latihan 1 : Program Konversi Mata Uang Rupiah Ke Dollar</h3>
-  <img src="gambar/3.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/3.1.png" alt="ss" width="400" height="200"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi sederhana yang digunakan untuk mengonversi nilai mata uang Rupiah (IDR) ke Dollar Amerika Serikat (USD). Program meminta pengguna memasukkan nominal uang dalam Rupiah sebesar Rp. 2.500.000, lalu menghitung konversinya berdasarkan kurs tetap (1$ = Rp. 14.250) yang ditentukan dalam program. 
@@ -274,7 +274,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Konversi Suhu</h3>
-  <img src="gambar/3.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/3.2.png" alt="ss" width="400" height="200"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi sederhana yang digunakan untuk mengonversi suhu dari Celcius ke beberapa satuan suhu lainnya, yaitu Kelvin, Farenheit, dan Reamur. Program ini meminta pengguna memasukkan suhu dalam satuan Celcius, kemudian menghitung dan menampilkan hasil konversi ke satuan lain.
@@ -312,7 +312,7 @@ Program menggunakan rumus berikut untuk melakukan konversi:<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Volume dan Luas Permukaan Bola Basket</h3>
-   <img src="gambar/3.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/3.3.png" alt="ss" width="400" height="300"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini adalah aplikasi yang digunakan untuk menghitung volume dan luas permukaan dari bola basket berdasarkan diameter yang diberikan oleh pengguna yaitu 12cm.Program ini memungkinkan pengguna untuk memilih operasi yang diinginkan dan mengulang proses perhitungan jika diperlukan.<br>
@@ -358,7 +358,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 4-Operator
 <div>
 <h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
-  <img src="gambar/4.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/4.1.png" alt="ss" width="400" height="200"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah sebuah aplikasi sederhana dalam bahasa pemrograman C yang digunakan untuk mengkonversi waktu dari format detik ke format yang lebih terstruktur, yaitu jam, menit, dan detik. Pengguna hanya perlu memasukkan jumlah total detik, dan program akan menghitung serta menampilkan hasil konversi dalam format yang mudah dipahami. 
@@ -393,7 +393,7 @@ menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilka
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Kasir Sederhana</h3>
-  <img src="gambar/4.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/4.2.png" alt="ss" width="400" height="400"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi kasir sederhana yang digunakan untuk menghitung total biaya pembelian barang berdasarkan harga satuan dan jumlah barang yang dibeli. Program akan meminta pengguna untuk memasukkan nama mereka, nama barang, harga satuan barang, dan jumlah barang yang dibeli. Hasilnya, program akan menampilkan rincian pembelian dan harga total pembelian barang.<br>
@@ -425,7 +425,7 @@ Program menggunakan rumus berikut : total = harga * jumlah<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa</h3>
-   <img src="gambar/4.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/4.3.png" alt="ss" width="400" height="200"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini merupakan aplikasi sederhana untuk menghitung nilai akhir seorang mahasiswa berdasarkan bobot dari komponen-komponen nilai yang terdiri dari presensi, praktek, UTS (Ujian Tengah Semester), dan UAS (Ujian Akhir Semester). <br>
@@ -462,7 +462,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 4 : Program Rental Film</h3>
-   <img src="gambar/4.4.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/4.4.png" alt="ss" width="400" height="300"><br>
   <p>
     <b>Deskipsi Program</b><br>
 Program ini adalah aplikasi sederhana untuk menghitung biaya sewa film berdasarkan durasi waktu menonton. Biaya sewa dihitung berdasarkan tarif tertentu :<br>
@@ -508,7 +508,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 5-Flow Control (Decision Making)
 <div>
 <h3 align="left">Latihan 1 : Program Kalkulator Sederhana </h3>
-  <img src="gambar/5.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/5.1.png" alt="ss" width="400" height="500"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah kalkulator sederhana berbasis teks yang mendukung beberapa operasi matematika dasar:<br>
@@ -560,7 +560,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program "TOSERBA" yang dapat menghitung diskon</h3>
-  <img src="gambar/5.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/5.2.png" alt="ss" width="400" height="500"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah aplikasi sederhana untuk pembelian di toserba (toko serba ada). Program menghitung total biaya yang harus dibayar pelanggan setelah menerapkan diskon berdasarkan total pembelian, dan menampilkan rincian transaksi.<br>
@@ -604,7 +604,7 @@ Program menggunakan rumus berikut : totalPembelian = harga * jumlah<br>
 
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas Permukaan Geometeri</h3>
-   <img src="gambar/5.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/5.3.png" alt="ss" width="400" height="500"><br>
   <p>
     <b>Deskipsi Program</b><br>
    Program ini adalah kalkulator untuk menghitung luas permukaan dari berbagai bentuk geometris, termasuk bola, kubus, balok, dan tabung. Program 
@@ -641,7 +641,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Nilai Akhir Mahasiswa dengan Ketentuan Kelulusan</h3>
-   <img src="gambar/5.4.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/5.4.png" alt="ss" width="400" height="300"><br>
   <p>
     <b>Deskipsi Program</b><br>
 Program ini adalah aplikasi berbasis teks untuk menghitung nilai akhir mahasiswa berdasarkan bobot dari kehadiran, tugas, UTS, dan UAS. Selain itu, program menentukan grade berdasarkan nilai akhir dan memberikan keterangan apakah mahasiswa lulus atau tidak.<br>
@@ -739,7 +739,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 6-Flow Control (Looping)
 <div>
 <h3 align="left">Latihan 1 : Program Deret Bilangan Genap dan Ganjil</h3>
-  <img src="gambar/6.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/6.1.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini dirancang untuk mencetak deret bilangan genap dan ganjil dalam rentang 0 hingga 50. Program menggunakan struktur perulangan untuk menghasilkan deret tersebut dan menampilkan hasilnya ke layar. 
@@ -772,7 +772,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Segitiga Bintang</h3>
-  <img src="gambar/6.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/6.2.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini mencetak pola segitiga bintang ke konsol menggunakan perulangan bersarang (nested loop). Program bertujuan untuk menghasilkan pola berbentuk segitiga.
@@ -808,7 +808,7 @@ Program menggunakan rumus berikut untuk melakukan konversi:<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Pola Angka Bentuk Segitiga</h3>
-   <img src="gambar/6.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/6.3.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini adalah implementasi sederhana dalam bahasa C untuk mencetak pola angka berdasarkan perkalian indeks baris dan kolom dalam bentuk segitiga. Pola yang dicetak menggunakan dua perulangan bersarang untuk menghasilkan hasil yang terstruktur.<br>
@@ -884,19 +884,19 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 kedua sebesar Rp. 45.000. Berapakah saldo Hattori saat ini?<br>
 Jawaban : maka, saldo awal + setoran pertama + setoran kedua = 175.0000 + 25.000 + 45.000 = 245.000<br>
 Output Program :<br>
-<img src="gambar/6.4a.png" alt="ss" width="200" height="200"><br>
+<img src="gambar/6.4a.png" alt="ss" width="400" height="500"><br>
    - Hattori melakukan penarikan pertama sebesar Rp. 50.000, kemudian
 penarikan kedua sebesar Rp. 45.000. Berapakah sisa saldo Hattori
 setelah itu?<br>
  Jawaban : saldo saat ini - penarikan pertama - penarikan kedua = 245.000 - 50.000 - 45.000 = 150.000<br>
 Output Program :<br>
-<img src="gambar/6.4bc.png" alt="ss" width="200" height="200"><br>
+<img src="gambar/6.4bc.png" alt="ss" width="400" height="500"><br>
    - Hattori melakukan penarikan ketiga sebesar Rp. 120.000. Berapakah
 sisa saldo Hattori?<br>
 Jawaban : saldo saat ini - penarikan ketiga = 150.000 - 120.000 = Penarrikan Gagal,karena ATM memberikan kebijakan saldo minimal adalah 50.000,sedangkan 
  jika dilakukan penarikan ketiga maka saldo akan menjadi 30.000 yang tentunya kurang dari saldo minimal.<br>
 Output Program :<br>
-<img src="gambar/6.4bc.png" alt="ss" width="200" height="200"><br>
+<img src="gambar/6.4bc.png" alt="ss" width="400" height="500"><br>
   </p>
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -904,7 +904,7 @@ Output Program :<br>
 ## JOB SHEET 7-Array
 <div>
 <h3 align="left">Latihan 1 : Program Menghitung Rata Rata Nilai Mahasiswa </h3>
-  <img src="gambar/7.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/7.1.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini digunakan untuk menghitung rata-rata nilai mahasiswa berdasarkan nilai yang tersimpan dalam array. Program memanfaatkan loop untuk menghitung jumlah seluruh nilai, lalu membaginya dengan jumlah data (panjang array) untuk mendapatkan rata-rata.
@@ -939,7 +939,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Input dan Tampilkan Nama Mahasiswa</h3>
-  <img src="gambar/7.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/7.2.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini dibuat untuk menerima input nama sejumlah mahasiswa dari pengguna, kemudian menampilkan daftar nama mahasiswa yang telah dimasukkan. Program memanfaatkan array 2D untuk menyimpan nama mahasiswa serta loop untuk mengelola input dan output data.<br>
@@ -967,7 +967,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Halaman Login Sederhana </h3>
-   <img src="gambar/7.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/7.3.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
     Program ini merupakan implementasi sederhana dari sistem validasi login. Program meminta pengguna untuk memasukkan username dan password, lalu memverifikasi kecocokan dengan data yang telah disimpan. Jika valid, program akan mencetak pesan "Berhasil login"; jika tidak, program akan memberikan pesan "Password salah".<br>
@@ -1001,7 +1001,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 8- Fungsi dan Prosedur
 <div>
 <h3 align="left">Latihan 1 : Program Perkalian Menggunakan Rekursi </h3>
-  <img src="gambar/8.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/8.1.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini menghitung perkalian dua bilangan dengan pendekatan rekursif. Dalam program, perkalian diimplementasikan sebagai penjumlahan berulang menggunakan fungsi rekursif, tanpa menggunakan operator perkalian bawaan (*).
@@ -1040,7 +1040,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Kalkulator Sederhana Menggunakan Fungsi</h3>
-  <img src="gambar/8.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/8.2.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah kalkulator sederhana yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Pengguna akan diminta untuk memasukkan dua bilangan dan operator aritmatika, kemudian program akan menampilkan hasil operasi sesuai pilihan pengguna.<br>
@@ -1075,7 +1075,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas dan Keliling Lingkaran Menggunakan Fungsi</h3>
-   <img src="gambar/8.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/8.3.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
    Program ini dirancang untuk menghitung luas dan keliling lingkaran berdasarkan nilai jari-jari yang diinputkan oleh pengguna. Program memanfaatkan konstanta PI dan dua fungsi terpisah untuk melakukan perhitungan, yaitu fungsi luas dan keliling. <br>
@@ -1108,7 +1108,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Diskon Menggunakan Fungsi</h3>
-   <img src="gambar/8.4.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/8.4.png" alt="ss" width="300" height="100"><br>
   <p>
     <b>Deskipsi Program</b><br>
 Program ini dirancang untuk menghitung diskon berdasarkan total pembelian dan kemudian menghitung jumlah yang harus dibayarkan setelah diskon diterapkan. 
@@ -1151,7 +1151,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 9-Pointer
 <div>
 <h3 align="left">Latihan 1 : Program Cetak Huruf dari Kata Secara Terbalik </h3>
-  <img src="gambar/9.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/9.1.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini bertujuan untuk mencetak sebuah kata secara terbalik, dimulai dari karakter terakhir hingga karakter pertama. Fungsi utama KataKata menerima sebuah string dan mencetaknya dengan cara yang menarik, di mana setiap kali mencetak, dimulai dari satu karakter lebih sedikit hingga akhirnya hanya karakter pertama yang tersisa. Program ini menggunakan konsep pointer dalam bahasa C untuk memanipulasi string secara efisien.
@@ -1184,7 +1184,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Membalikkan Kata</h3>
-  <img src="gambar/9.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/9.2.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini digunakan untuk membalikkan urutan karakter dalam sebuah kalimat yang dimasukkan oleh pengguna. Program ini menggunakan konsep pointer dalam bahasa C untuk mengakses dan menukar karakter antara posisi awal dan akhir string, sehingga menghasilkan string yang dibalik.<br>
@@ -1240,10 +1240,12 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
     a. Nilai Layla: 00000000005FFE88<br>
     b. Nilai Balmond: 57083<br>
 
-    Output Program :<br>
-    
-     <img src="gambar/9.3.png" alt="ss" width="200" height="200"><br>
-    
+<p>
+  Output Program :<br>
+  <img src="gambar/9.3.png" alt="ss" width="400" height="300"><br>
+</p>
+
+
   <b>Fitur</b><br>
    1. Variabel dan Assignment : Menggunakan variabel biasa dan pointer untuk menyimpan serta memanipulasi nilai variabel lain dan Variabel pertama 
  (Lesley) digunakan untuk mendemonstrasikan pengaruh perubahan nilai dan alamat memori yang disalin ke variabel lain.<br>
@@ -1284,7 +1286,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 10-Enumerasi dan Structure
 <div>
 <h3 align="left">Latihan 1 : Program Permainan Menebak Angka </h3>
-  <img src="gambar/10.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/10.1.png" alt="ss" width="500" height="300"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini adalah permainan tebak angka di mana pemain diminta untuk menebak angka yang dihasilkan secara acak oleh komputer. Pemain diberikan petunjuk 
@@ -1324,7 +1326,7 @@ menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilka
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Menentukan Zodiak</h3>
-  <img src="gambar/10.2.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/10.2.png" alt="ss" width="300" height="100"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Pada program ini, kita menggunakan struktur data struct untuk menyimpan informasi mengenai setiap zodiak, termasuk tanggal mulai dan tanggal berakhirnya zodiak tersebut dalam setahun. Program kemudian meminta input tanggal lahir pengguna dan menentukan zodiak berdasarkan input tersebut.<br>
@@ -1363,7 +1365,7 @@ Program menggunakan rumus berikut : total = harga * jumlah<br>
 </div>
 <div>
   <h3 align="left">Latihan 3 : Program Menyimpan Data Mahasiswa Menggunakan Struktur</h3>
-   <img src="gambar/10.3.png" alt="ss" width="200" height="200"><br>
+   <img src="gambar/10.3.png" alt="ss" width="400" height="200"><br>
   <p>
     <b>Deskipsi Program</b><br>
    Program yang Anda berikan adalah program C untuk mengelola data mahasiswa. Program ini menggunakan struktur data struct untuk menyimpan informasi tentang mahasiswa, seperti NPM, nama, tanggal lahir, alamat, dan nomor telepon. <br>
@@ -1404,7 +1406,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 ## JOB SHEET 11-File Handling in C
 <div>
 <h3 align="left">Latihan 1 : Program Input Biodata Mahasiswa dengan File Handaling </h3>
-  <img src="gambar/11.1.png" alt="ss" width="200" height="200"><br>
+  <img src="gambar/11.1.png" alt="ss" width="500" height="300"><br>
   <p>
   <b>Deskripsi Program</b><br>
 Program ini berfungsi untuk mengumpulkan data biodata mahasiswa (nama, NIM, jurusan, dan program studi) dan menyimpannya ke dalam file teks. 
@@ -1435,7 +1437,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <b> Output Pada File : </b><br>
 
-<img src="1.1.png" alt="ss" width="200" height="200"><br>
+<img src="gambar/datamahasiswa11.png" alt="ss" width="500" height="300"><br>
   </p>
 </div>
 
