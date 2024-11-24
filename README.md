@@ -17,33 +17,40 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#job-sheet-1---pengantar-algoritma-dan-pemograman">JOB SHEET 1 - Pengantar Algoritma dan Pemrograman</a>
-      <ul>
-        <li><a href="#latihan-1-pengertian">Latihan 1: Pengertian</a></li>
-        <li><a href="#latihan-2-instalasi-ide">Latihan 2: Instalasi IDE</a></li>
-        <li><a href="#latihan-3-program-hello-world">Latihan 3: Program Hello World</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+<!-- Table of Contents -->
+# :notebook_with_decorative_cover: Table of Contents
+
+<a href="https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra/edit/main/README.md#job-sheet-1---pengantar-algoritma-dan-pemrograman"> JOB SHEET 1 - Pengantar Algoritma dan Pemrograman.</a>
+- [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 2-Pemograman Dasar C](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 3-Variabel,Konstanta, dan Tipe Data](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 4-Operator](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 5-Flow Control (Decision Making)](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 6-Flow Control (Looping)](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 7-Array](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 8- Fungsi dan Prosedur](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 9-Pointer](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 10-Enumerasi dan Structure](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 11-File Handling in C](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+  * [Screenshots](#camera-screenshots)
+  * [Tech Stack](#space_invader-tech-stack)
+  * [Features](#dart-features)
+  * [Color Reference](#art-color-reference)
+  * [Environment Variables](#key-environment-variables)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Running Tests](#test_tube-running-tests)
+  * [Run Locally](#running-run-locally)
+  * [Deployment](#triangular_flag_on_post-deployment)
+- [Usage](#eyes-usage)
+- [Roadmap](#compass-roadmap)
+- [Contributing](#wave-contributing)
+  * [Code of Conduct](#scroll-code-of-conduct)
+- [FAQ](#grey_question-faq)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
+- [Acknowledgements](#gem-acknowledgements)
 
 
 
