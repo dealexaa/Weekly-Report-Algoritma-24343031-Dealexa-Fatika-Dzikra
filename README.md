@@ -133,7 +133,7 @@ Output : <br>
   </p>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 2-Pemograman Dasar C
 <div>
@@ -263,7 +263,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 3-Variabel,Konstanta, dan Tipe Data
 <div>
@@ -377,7 +377,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program menampilkan pesan penutup.
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 4-Operator
 <div>
@@ -527,7 +527,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 5-Flow Control (Decision Making)
 <div>
@@ -760,6 +760,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   </p>
 </div>
 
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 ## JOB SHEET 6-Flow Control (Looping)
 <div>
 <h3 align="left">Latihan 1 : Program Deret Bilangan Genap dan Ganjil</h3>
@@ -863,7 +865,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <div>
   <h3 align="left">Latihan 4 : Program ATM</h3>
@@ -923,7 +925,7 @@ Output Program :<br>
 <img src="gambar/6.4bc.png" alt="ss" width="400" height="500"><br>
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 7-Array
 <div>
@@ -1020,7 +1022,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 8- Fungsi dan Prosedur
 <div>
@@ -1170,7 +1172,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program menampilkan hasil diskon dan total yang harus dibayar.
   </p>
 </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 9-Pointer
 <div>
@@ -1305,7 +1307,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   </p>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 10-Enumerasi dan Structure
 <div>
@@ -1425,7 +1427,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   </p>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## JOB SHEET 11-File Handling in C
 <div>
@@ -1465,5 +1467,5 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   </p>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
