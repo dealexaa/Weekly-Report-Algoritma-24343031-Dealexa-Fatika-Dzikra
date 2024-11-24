@@ -1471,3 +1471,9 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
+## 🌟 Dukungan
+Jika proyek ini membantu Anda, jangan lupa untuk memberikan ⭐ di repositori ini.
+
+## 👥 Kontributor
+ - Dealexa Fatika Dzikra - Penulis utama
+
