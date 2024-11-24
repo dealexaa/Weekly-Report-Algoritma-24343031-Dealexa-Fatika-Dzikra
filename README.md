@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="1.1.png" alt="Logo" width="80" height="80">
+    <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Logo" width="200" height="100">
   </a>
 
 <h3 align="center">WEEKLY REPORT ALGORITMA PEMROGRAMAN</h3>
