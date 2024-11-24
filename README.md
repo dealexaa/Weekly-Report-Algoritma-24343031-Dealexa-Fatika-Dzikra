@@ -18,7 +18,7 @@
 
 
 <!-- Table of Contents -->
-# :notebook_with_decorative_cover: Table of Contents
+# :notebook_with_decorative_cover: DAFTAR ISI
 
 - [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
    - [Latihan 1 ](#latihan-1--pengertian-algoritma-pemrograman-program-programmer-dan-ide)
@@ -67,7 +67,7 @@
    - [Latihan 2](#latihan-2--program-menentukan-zodiak)
    - [Latihan 3](#latihan-3--program-menyimpan-data-mahasiswa-menggunakan-struktur)
 - [JOB SHEET 11-File Handling in C](#job-sheet-11-file-handling-in-c)
-   - [Latihan 1](latihan-1--program-input-biodata-mahasiswa-dengan-file-handaling-)
+   - [Latihan 1](#latihan-1--program-input-biodata-mahasiswa-dengan-file-handaling-)
      
 
 <!-- ABOUT THE PROJECT -->
