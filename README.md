@@ -22,7 +22,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#job-sheet-1">JOB SHEET 1 - Pengantar Algoritma dan Pemrograman</a>
+      <a href="#job-sheet-1---pengantar-algoritma-dan-pemograman">JOB SHEET 1 - Pengantar Algoritma dan Pemrograman</a>
       <ul>
         <li><a href="#latihan-1-pengertian">Latihan 1: Pengertian</a></li>
         <li><a href="#latihan-2-instalasi-ide">Latihan 2: Instalasi IDE</a></li>
