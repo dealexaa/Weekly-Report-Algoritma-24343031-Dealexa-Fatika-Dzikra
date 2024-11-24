@@ -74,7 +74,7 @@
  </details>    
 
 <!-- ABOUT THE PROJECT -->
-## JOB SHEET 1 - Pengantar Algoritma dan Pemrograman
+## JOB SHEET 1 - Pengantar Algoritma dan Pemrograman<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE</h3>
   <p>
@@ -137,7 +137,7 @@ Output : <br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 2-Pemograman Dasar C
+## JOB SHEET 2-Pemograman Dasar C<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program "Selamat Datang dalam Pemograman C!"</h3>
   <img src="gambar/2.1.png" alt="ss" width="300" height="100"><br>
@@ -267,7 +267,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 3-Variabel,Konstanta, dan Tipe Data
+## JOB SHEET 3-Variabel,Konstanta, dan Tipe Data<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Konversi Mata Uang Rupiah Ke Dollar</h3>
   <img src="gambar/3.1.png" alt="ss" width="400" height="200"><br>
@@ -381,7 +381,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 4-Operator
+## JOB SHEET 4-Operator<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik </h3>
   <img src="gambar/4.1.png" alt="ss" width="400" height="200"><br>
@@ -531,7 +531,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 5-Flow Control (Decision Making)
+## JOB SHEET 5-Flow Control (Decision Making)<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Kalkulator Sederhana </h3>
   <img src="gambar/5.1.png" alt="ss" width="400" height="500"><br>
@@ -764,7 +764,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 6-Flow Control (Looping)
+## JOB SHEET 6-Flow Control (Looping)<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Deret Bilangan Genap dan Ganjil</h3>
   <img src="gambar/6.1.png" alt="ss" width="300" height="100"><br>
@@ -929,7 +929,7 @@ Output Program :<br>
 </div>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 7-Array
+## JOB SHEET 7-Array<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Menghitung Rata Rata Nilai Mahasiswa </h3>
   <img src="gambar/7.1.png" alt="ss" width="300" height="100"><br>
@@ -1026,7 +1026,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 8- Fungsi dan Prosedur
+## JOB SHEET 8- Fungsi dan Prosedur<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Perkalian Menggunakan Rekursi </h3>
   <img src="gambar/8.1.png" alt="ss" width="300" height="100"><br>
@@ -1176,7 +1176,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 </div>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 9-Pointer
+## JOB SHEET 9-Pointer<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Cetak Huruf dari Kata Secara Terbalik </h3>
   <img src="gambar/9.1.png" alt="ss" width="300" height="100"><br>
@@ -1311,7 +1311,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 10-Enumerasi dan Structure
+## JOB SHEET 10-Enumerasi dan Structure<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Permainan Menebak Angka </h3>
   <img src="gambar/10.1.png" alt="ss" width="500" height="300"><br>
@@ -1431,7 +1431,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
-## JOB SHEET 11-File Handling in C
+## JOB SHEET 11-File Handling in C<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 <div>
 <h3 align="left">Latihan 1 : Program Input Biodata Mahasiswa dengan File Handaling </h3>
   <img src="gambar/11.1.png" alt="ss" width="500" height="300"><br>
