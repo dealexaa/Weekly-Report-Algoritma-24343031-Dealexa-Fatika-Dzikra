@@ -8,9 +8,11 @@
 
 <h3 align="center">WEEKLY REPORT ALGORITMA PEMROGRAMAN</h3>
 
-  <p align="center">
+ <p align="center">
    NAMA : DEALEXA FATIKA DZIKRA<br>
-   NIM  : 24343031
+   NIM  : 24343031<br>
+   INFORMATIKA<br>
+   UNIVERSITAS NEGERI PADANG<br>
     
   </p>
 </div>
