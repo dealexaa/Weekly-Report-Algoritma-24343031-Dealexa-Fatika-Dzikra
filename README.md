@@ -20,10 +20,9 @@
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
 
-<a href="#job-sheet-1---pengantar-algoritma-dan-pemrograman"> JOB SHEET 1 - Pengantar Algoritma dan Pemrograman.</a>
 - [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
-- [JOB SHEET 2-Pemograman Dasar C](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
-- [JOB SHEET 3-Variabel,Konstanta, dan Tipe Data](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
+- [JOB SHEET 2-Pemograman Dasar C](#job-sheet-2-pemograman-dasar-c)
+- [JOB SHEET 3-Variabel,Konstanta, dan Tipe Data](#job-sheet-variabel,konstanta,-dan-tipe-data)
 - [JOB SHEET 4-Operator](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
 - [JOB SHEET 5-Flow Control (Decision Making)](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
 - [JOB SHEET 6-Flow Control (Looping)](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
