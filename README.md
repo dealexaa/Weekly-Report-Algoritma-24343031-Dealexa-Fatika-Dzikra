@@ -25,53 +25,54 @@
 
 - [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
    - [Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE ](#latihan-1--pengertian-algoritma-pemrograman-program-programmer-dan-ide)
-   - [Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE
-](#latihan-2--melakukan-instalasi-ide)
-   - [Latihan 3](#latihan-3--program-hello-world)
+   - [Latihan 2 : Melakukan instalasi IDE](#latihan-2--melakukan-instalasi-ide)
+   - [Latihan 3 : Program "Hello World"](#latihan-3--program-hello-world)
      
 - [JOB SHEET 2-Pemograman Dasar C](#job-sheet-2-pemograman-dasar-c)
-   - [Latihan 1](#latihan-1--program-selamat-datang-dalam-pemograman-c)
-   - [Latihan 2](#latihan-2--program-menentukan-nilai-akhir-mahasiswa)
-   - [Latihan 3](#latihan-3--program-menghitung-luas-segitiga)
-   - [Latihan 4](#latihan-4--program-menghitung-luas-persegi-panjang)
+   - [Latihan 1 : Program "Selamat Datang dalam Pemograman C!"](#latihan-1--program-selamat-datang-dalam-pemograman-c)
+   - [Latihan 2 : Program Menentukan Nilai Akhir Mahasiswa](#latihan-2--program-menentukan-nilai-akhir-mahasiswa)
+   - [Latihan 3 : Program Menghitung Luas Segitiga](#latihan-3--program-menghitung-luas-segitiga)
+   - [Latihan 4 : Program Menghitung Luas Persegi Panjang](#latihan-4--program-menghitung-luas-persegi-panjang)
 - [JOB SHEET 3-Variabel,Konstanta, dan Tipe Data](#job-sheet-3-variabelkonstanta-dan-tipe-data)
-   - [Latihan 1](#latihan-1--program-konversi-mata-uang-rupiah-ke-dollar)
-   - [Latihan 2](#latihan-2--program-konversi-suhu)
-   - [Latihan 3](#latihan-3--program-menghitung-volume-dan-luas-permukaan-bola-basket)
+   - [Latihan 1 : Program Konversi Mata Uang Rupiah Ke Dollar](#latihan-1--program-konversi-mata-uang-rupiah-ke-dollar)
+   - [Latihan 2 : Program Konversi Suhu](#latihan-2--program-konversi-suhu)
+   - [Latihan 3 : Program Menghitung Volume dan Luas Permukaan Bola Basket](#latihan-3--program-menghitung-volume-dan-luas-permukaan-bola-basket)
 - [JOB SHEET 4-Operator](#job-sheet-4-operator)
-   - [Latihan 1](#latihan-1--program-konversi-waktu-dari-detik-ke-jammenitdetik-)
-   - [Latihan 2](#latihan-2--program-kasir-sederhana)
-   - [Latihan 3](#latihan-3--program-menghitung-nilai-akhir-pratikum-mahasiswa)
-   - [Latihan 4](#latihan-4--program-rental-film)
+   - [Latihan 1 : Program Konversi Waktu dari detik ke Jam,Menit,Detik](#latihan-1--program-konversi-waktu-dari-detik-ke-jammenitdetik-)
+   - [Latihan 2 : Program Kasir Sederhana](#latihan-2--program-kasir-sederhana)
+   - [Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa](#latihan-3--program-menghitung-nilai-akhir-pratikum-mahasiswa)
+   - [Latihan 4 : Program Rental Film](#latihan-4--program-rental-film)
 - [JOB SHEET 5-Flow Control (Decision Making)](#job-sheet-5-flow-control-decision-making)
-   - [Latihan 1](#latihan-1--program-kalkulator-sederhana-)
-   - [Latihan 2](#latihan-2--program-toserba-yang-dapat-menghitung-diskon)
-   - [Latihan 3](#latihan-3--program-menghitung-luas-permukaan-geometeri)
-   - [Latihan 4](#latihan-4--program-menghitung-nilai-akhir-mahasiswa-dengan-ketentuan-kelulusan)
+   - [Latihan 1 : Program Kalkulator Sederhana](#latihan-1--program-kalkulator-sederhana-)
+   - [Latihan 2 : Program "TOSERBA" yang dapat menghitung diskon](#latihan-2--program-toserba-yang-dapat-menghitung-diskon)
+   - [Latihan 3 : Program Menghitung Luas Permukaan Geometeri](#latihan-3--program-menghitung-luas-permukaan-geometeri)
+   - [Latihan 4 : Program Menghitung Nilai Akhir Mahasiswa dengan Ketentuan Kelulusan](#latihan-4--program-menghitung-nilai-akhir-mahasiswa-dengan-ketentuan-kelulusan)
 - [JOB SHEET 6-Flow Control (Looping)](#job-sheet-6-flow-control-looping)
-   - [Latihan 1](#latihan-1--program-deret-bilangan-genap-dan-ganjil)
-   - [Latihan 2](#latihan-2--program-segitiga-bintang)
-   - [Latihan 3](#latihan-3--program-pola-angka-bentuk-segitiga)
-   - [Latihan 4](#latihan-4--program-atm)
+   - [Latihan 1 : Program Deret Bilangan Genap dan Ganjil](#latihan-1--program-deret-bilangan-genap-dan-ganjil)
+   - [Latihan 2 : Program Segitiga Bintang](#latihan-2--program-segitiga-bintang)
+   - [Latihan 3 : Program Pola Angka Bentuk Segitiga](#latihan-3--program-pola-angka-bentuk-segitiga)
+   - [Latihan 4 : Program ATM](#latihan-4--program-atm)
 - [JOB SHEET 7-Array](#job-sheet-7-array)
-   - [Latihan 1](#latihan-1--program-menghitung-rata-rata-nilai-mahasiswa-)
-   - [Latihan 2](#latihan-2--program-input-dan-tampilkan-nama-mahasiswa )
-   - [Latihan 3](#latihan-4--program-menghitung-luas-persegi-panjang#latihan-3--program-halaman-login-sederhana-)
+   - [Latihan 1 : Program Menghitung Rata Rata Nilai Mahasiswa](#latihan-1--program-menghitung-rata-rata-nilai-mahasiswa-)
+   - [Latihan 2 : Program Input dan Tampilkan Nama Mahasiswa](#latihan-2--program-input-dan-tampilkan-nama-mahasiswa )
+   - [Latihan 3 : Program Halaman Login Sederhana](#latihan-4--program-menghitung-luas-persegi-panjang#latihan-3--program-halaman-login-sederhana-)
 - [JOB SHEET 8- Fungsi dan Prosedur](#job-sheet-8--fungsi-dan-prosedur)
-   - [Latihan 1](#latihan-1--program-perkalian-menggunakan-rekursi-)
-   - [Latihan 2](#latihan-2--program-kalkulator-sederhana-menggunakan-fungsi)
-   - [Latihan 3](#latihan-3--program-menghitung-luas-dan-keliling-lingkaran-menggunakan-fungsi)
-   - [Latihan 4](#latihan-4--program-menghitung-diskon-menggunakan-fungsi)
+   - [Latihan 1 : Program Perkalian Menggunakan Rekursi](#latihan-1--program-perkalian-menggunakan-rekursi-)
+   - [Latihan 2 : Program Kalkulator Sederhana Menggunakan Fungsi](#latihan-2--program-kalkulator-sederhana-menggunakan-fungsi)
+   - [Latihan 3 : Program Menghitung Luas dan Keliling Lingkaran Menggunakan Fungsi](#latihan-3--program-menghitung-luas-dan-keliling-lingkaran-menggunakan-fungsi)
+   - [Latihan 4 : Program Menghitung Diskon Menggunakan Fungsi](#latihan-4--program-menghitung-diskon-menggunakan-fungsi)
 - [JOB SHEET 9-Pointer](#job-sheet-9-pointer)
-   - [Latihan 1](#latihan-1--program-cetak-huruf-dari-kata-secara-terbalik-)
-   - [Latihan 2](#latihan-2--program-membalikkan-kata)
-   - [Latihan 3](#latihan-3--program-contoh-penggunaan-pointer)
+   - [Latihan 1Latihan 1 : Program Cetak Huruf dari Kata Secara Terbalik](#latihan-1--program-cetak-huruf-dari-kata-secara-terbalik-)
+   - [Latihan 2 : Program Membalikkan Kata](#latihan-2--program-membalikkan-kata)
+   - [Latihan 3 : Program Contoh Penggunaan Pointer](#latihan-3--program-contoh-penggunaan-pointer)
 - [JOB SHEET 10-Enumerasi dan Structure](#job-sheet-10-enumerasi-dan-structure)
-   - [Latihan 1](#latihan-1--program-permainan-menebak-angka-)
-   - [Latihan 2](#latihan-2--program-menentukan-zodiak)
-   - [Latihan 3](#latihan-3--program-menyimpan-data-mahasiswa-menggunakan-struktur)
+   - [Latihan 1 : Program Permainan Menebak Angka](#latihan-1--program-permainan-menebak-angka-)
+   - [Latihan 2 : Program Menentukan Zodiak](#latihan-2--program-menentukan-zodiak)
+   - [Latihan 3 : Program Menyimpan Data Mahasiswa Menggunakan Struktur](#latihan-3--program-menyimpan-data-mahasiswa-menggunakan-struktur)
 - [JOB SHEET 11-File Handling in C](#job-sheet-11-file-handling-in-c)
-   - [Latihan 1](#latihan-1--program-input-biodata-mahasiswa-dengan-file-handaling-)
+   - [Latihan 1 : Program Input Biodata Mahasiswa dengan File Handaling](#latihan-1--program-input-biodata-mahasiswa-dengan-file-handaling-)
+- [Dukungan](#dukungan)
+- [Kontributor](#kontributor)
  </details>    
 
 <!-- ABOUT THE PROJECT -->
@@ -103,6 +104,8 @@ fitur yang mendukung proses pemrograman. Contohnya adalah DevC++,
 Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.    
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 2 : Melakukan instalasi IDE</h3>
   Anda bisa memilih diantara IDE berikut :<br>
@@ -110,10 +113,14 @@ Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.
 ➢ Visual Studio Code<br>
 ➢ CodeBlocks<br>
   Tetapi pada program ini saya menggunakan Visual Studio Code,Berikut cara instalasinya :<br>
-  1.Unduh Visual Studio Code dari <a href="https://code.visualstudio.com/download"> tautan resmi.</a><br>
-  2.Instal sesuai instruksi pada layar.<br>
-  3.Pastikan compiler seperti MinGW terpasang.<br>
+  1. Unduh Visual Studio Code dari <a href="https://code.visualstudio.com/download"> tautan resmi.</a>Klik tombol Download for Windows. Anda akan mengunduh file installer VSCodeSetup-x64-<version>.exe.<br>
+  2. Instal sesuai instruksi pada layar.<br>
+  3. Pastikan compiler seperti MinGW terpasang.Kunjungi <a href="https://sourceforge.net/projects/mingw-w64/"> halaman resmi MinGW</a><br>
+  4. Setelah instalasi selesai, buka Control Panel > System and Security > System > Advanced system settings.<br>
+  5. Klik Environment Variables.Di bawah System Variables, pilih Path, klik Edit, dan tambahkan folder bin dari MinGW (misalnya C:\MinGW\bin)<br>
 </div>
+    <p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program "Hello World"</h3>
   
@@ -164,6 +171,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program menampilkan pesan selamat datang yang memuat nama pengguna.<br>   
   
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Menentukan Nilai Akhir Mahasiswa</h3>
@@ -210,6 +219,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Output: Program mencetak data pribadi dan nilai-nilai yang telah dimasukkan, termasuk nilai akhir.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas Segitiga</h3>
    <img src="gambar/2.3.png" alt="ss" width="300" height="100"><br>
@@ -237,6 +248,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Luas Persegi Panjang</h3>
    <img src="gambar/2.4.png" alt="ss" width="300" height="100"><br>
@@ -298,6 +311,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program akan menampilkan hasil dari konversi uang rupiah ke bentuk dollar<br>
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Konversi Suhu</h3>
@@ -337,6 +352,8 @@ Program menggunakan rumus berikut untuk melakukan konversi:<br>
    - Program mengakhiri eksekusi setelah menampilkan hasil konversi. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Volume dan Luas Permukaan Bola Basket</h3>
    <img src="gambar/3.3.png" alt="ss" width="400" height="300"><br>
@@ -417,6 +434,8 @@ menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilka
    - Program akan menampilkan hasil dari konversi waktu dalam detik ke bentuk jam,menit,detik<br>
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Kasir Sederhana</h3>
@@ -450,6 +469,8 @@ Program menggunakan rumus berikut : total = harga * jumlah<br>
    - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Nilai Akhir Pratikum Mahasiswa</h3>
    <img src="gambar/4.3.png" alt="ss" width="400" height="200"><br>
@@ -487,6 +508,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 4 : Program Rental Film</h3>
    <img src="gambar/4.4.png" alt="ss" width="400" height="300"><br>
@@ -584,6 +607,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program akan berhenti ketika pengguna menginputkan "t" dan memberikan pesan "terimakasih"<br>
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program "TOSERBA" yang dapat menghitung diskon</h3>
@@ -628,6 +653,7 @@ Program menggunakan rumus berikut : totalPembelian = harga * jumlah<br>
    - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas Permukaan Geometeri</h3>
@@ -666,6 +692,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Nilai Akhir Mahasiswa dengan Ketentuan Kelulusan</h3>
    <img src="gambar/5.4.png" alt="ss" width="400" height="300"><br>
@@ -797,6 +825,7 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program mencetak baris baru setelah semua deret selesai dan keluar dengan return 0.<br>
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 <div>
  <div>
@@ -835,6 +864,8 @@ Program menggunakan rumus berikut untuk melakukan konversi:<br>
    - Setelah semua baris selesai dicetak, program keluar dari kedua perulangan dan mencapai perintah return 0, menandakan program selesai dijalankan.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Pola Angka Bentuk Segitiga</h3>
    <img src="gambar/6.3.png" alt="ss" width="300" height="100"><br>
@@ -965,6 +996,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Menampilkan rata-rata dalam format desimal (2 digit).<br>
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Input dan Tampilkan Nama Mahasiswa</h3>
@@ -994,6 +1027,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Halaman Login Sederhana </h3>
    <img src="gambar/7.3.png" alt="ss" width="300" height="100"><br>
@@ -1066,6 +1101,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
   
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Kalkulator Sederhana Menggunakan Fungsi</h3>
@@ -1102,6 +1139,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program menampilkan hasil operasi aritmatika dalam format a operator b = hasil.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Menghitung Luas dan Keliling Lingkaran Menggunakan Fungsi</h3>
    <img src="gambar/8.3.png" alt="ss" width="300" height="100"><br>
@@ -1135,6 +1174,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Akhir Program:Program akan menutup program.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 4 : Program Menghitung Diskon Menggunakan Fungsi</h3>
    <img src="gambar/8.4.png" alt="ss" width="300" height="100"><br>
@@ -1210,6 +1251,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Proses ini berlanjut hingga seluruh kata dicetak dengan mengurangi satu karakter di setiap baris.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Membalikkan Kata</h3>
@@ -1240,6 +1283,8 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
    - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Contoh Penggunaan Pointer</h3>
    
@@ -1352,6 +1397,8 @@ menghitung jumlah menit dari sisa detik setelah dikonversi ke jam dan menampilka
    - Setelah pemain menebak dengan benar, jumlah percobaan akan ditampilkan, dan pemain ditanya apakah ingin bermain lagi,jika tidak program akan berhenti.
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
  <div>
 <h3 align="left">Latihan 2 : Program Menentukan Zodiak</h3>
@@ -1392,6 +1439,8 @@ Program menggunakan rumus berikut : total = harga * jumlah<br>
    - Program mengakhiri eksekusi setelah menampilkan output. Fungsi return 0 digunakan untuk menandakan bahwa program berjalan dengan sukses.  
   </p>
 </div>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 <div>
   <h3 align="left">Latihan 3 : Program Menyimpan Data Mahasiswa Menggunakan Struktur</h3>
    <img src="gambar/10.3.png" alt="ss" width="400" height="200"><br>
@@ -1473,8 +1522,11 @@ Program ini terdiri dari bagian utama sebagai berikut:<br>
 <p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## 🌟 Dukungan
-Jika proyek ini membantu Anda, jangan lupa untuk memberikan ⭐ di repositori ini.
+Jika proyek ini membantu Anda, jangan lupa untuk memberikan ⭐ di repositori ini.<br>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
 
 ## 👥 Kontributor
- - Dealexa Fatika Dzikra - Penulis utama
+ - Dealexa Fatika Dzikra - Penulis utama<br>
+<p align="right"><a href="#readme-top"> back to top :top: </a></p>
+
 
