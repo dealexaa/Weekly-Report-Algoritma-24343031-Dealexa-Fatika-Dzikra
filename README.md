@@ -1,15 +1,13 @@
 <!-- PROJECT LOGO -->
   <div align="center">
-    <img src="gambar/hello1.gif" alt="hello" width="50%">
+    <img src="gambar/hello1.gif" alt="hello" width="40%">
+    <img src="gambar/welcome.gif" alt="welcome" width="100%">
   </div>
    
 
 <a id="readme-top"></a>
 
-<div align="center">
-  <a href="https://github.com/dealexaa/Weekly-Report-Algoritma-24343031-Dealexa-Fatika-Dzikra.git">
-    <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Logo" width="200" height="100">
-  </a>
+
 
 <h3 align="center">WEEKLY REPORT ALGORITMA PEMROGRAMAN</h3>
 
