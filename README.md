@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
   <div align="center">
-    <img src="gambar/hello1.gif" alt="hello" width="40%">
+   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%"> <img src="gambar/hello1.gif" alt="hello" width="400" height="80"><img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%">
     <img src="gambar/welcome.gif" alt="welcome" width="100%">
   </div>
    
