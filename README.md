@@ -24,8 +24,9 @@
  <summary> :notebook_with_decorative_cover: DAFTAR ISI </summary>
 
 - [JOB SHEET 1 - Pengantar Algoritma dan Pemrograman](#job-sheet-1---pengantar-algoritma-dan-pemrograman)
-   - [Latihan 1 ](#latihan-1--pengertian-algoritma-pemrograman-program-programmer-dan-ide)
-   - [Latihan 2 ](#latihan-2--melakukan-instalasi-ide)
+   - [Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE ](#latihan-1--pengertian-algoritma-pemrograman-program-programmer-dan-ide)
+   - [Latihan 1 : Pengertian Algoritma, Pemrograman, Program, Programmer, dan IDE
+](#latihan-2--melakukan-instalasi-ide)
    - [Latihan 3](#latihan-3--program-hello-world)
      
 - [JOB SHEET 2-Pemograman Dasar C](#job-sheet-2-pemograman-dasar-c)
