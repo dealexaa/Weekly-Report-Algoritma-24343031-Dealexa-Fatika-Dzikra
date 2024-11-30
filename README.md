@@ -1,7 +1,9 @@
 <!-- PROJECT LOGO -->
-<div align="center" 
-   <img src="gambar/HELLO.gif" alt="hello" width="20%">
-</div>
+  <center>
+    <img src="gambar/HELLO.gif" alt="hello" width="20%">
+ 
+  </center>
+   
 
 <a id="readme-top"></a>
 
