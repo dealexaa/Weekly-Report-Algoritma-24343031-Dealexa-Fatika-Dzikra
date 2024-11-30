@@ -9,8 +9,9 @@
 <h3 align="center">WEEKLY REPORT ALGORITMA PEMROGRAMAN</h3>
 
  <p align="center">
-   NAMA : DEALEXA FATIKA DZIKRA<br>
-   NIM  : 24343031<br>
+   NAMA  : Dealexa Fatika Dzikra<br>
+   NIM   : 24343031<br>
+   DOSEN : Bapak Randi Proska Sandra, S.Pd, M.Sc<br>
    INFORMATIKA<br>
    UNIVERSITAS NEGERI PADANG<br>
     
@@ -88,7 +89,7 @@ ilmu komputer yang di acu dalam terminologi algoritma. Namun, jangan
 beranggapan algoritma selalu identik dengan ilmu komputer saja. Dalam
 kehidupan sehari-hari pun banyak terdapat proses yang dinyatakan dalam
 suatu algoritma. Berikut adalah beberapa contoh algoritma dalam kehidupan
-sehari-hari :
+sehari-hari :<br>
 <img src="gambar/algoritma.png" alt="ss" width="400" height="200"><br>
 <p><b>Pemrograman</b> bisa diartikan sebuah tindakan atau aktivitas penulisan,
 menguji, memperbaiki, dan memelihara kode yang dipahami oleh komputer.
