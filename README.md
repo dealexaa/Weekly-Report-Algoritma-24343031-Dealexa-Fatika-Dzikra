@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
   <div align="center">
-    <img src="gambar/HELLO.gif" alt="hello" width="20%">
+    <img src="gambar/hello1.gif" alt="hello" width="50%">
   </div>
    
 
