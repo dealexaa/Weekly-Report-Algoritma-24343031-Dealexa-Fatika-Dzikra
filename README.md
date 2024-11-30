@@ -1,7 +1,8 @@
 <!-- PROJECT LOGO -->
   <div align="center">
-   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%"> <img src="gambar/hello1.gif" alt="hello" width="400" height="80"><img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%">
-    <img src="gambar/welcome.gif" alt="welcome" width="100%">
+   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%"><img src="https://readme-typing-svg.herokuapp.com?font=Sixtyfour+Convergence&size=30&pause=1000&color=89369F&background=FFFFFF&center=true&vCenter=true&width=435&lines=HELLO!+HELLO!" alt="Typing SVG" width="50%"><img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="12%"> 
+                                                                                        
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Sixtyfour+Convergence&size=9&pause=1000&color=89369F&background=FFFFFF&center=true&vCenter=true&width=435&lines=WELCOME+TO+WEEKLY+REPORT+ALGORITMA+PEMOGRAMAN" alt="Typing SVG" width="100%"></a>
   </div>
    
 
