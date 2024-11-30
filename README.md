@@ -76,8 +76,8 @@
    - [Latihan 3 : Program Menyimpan Data Mahasiswa Menggunakan Struktur](#latihan-3--program-menyimpan-data-mahasiswa-menggunakan-struktur)
 - [JOB SHEET 11-File Handling in C](#job-sheet-11-file-handling-in-c)
    - [Latihan 1 : Program Input Biodata Mahasiswa dengan File Handaling](#latihan-1--program-input-biodata-mahasiswa-dengan-file-handaling-)
-- [Dukungan](#dukungan)
-- [Kontributor](#kontributor)
+- [Dukungan](#-dukungan)
+- [Kontributor](#-kontributor)
  </details>    
 
 <!-- ABOUT THE PROJECT -->
